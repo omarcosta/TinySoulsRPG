@@ -3578,6 +3578,78 @@
         "name": "assets\\third-party\\8 Directional Knight Character\\Block\\Left\\Block Left6.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/player default area.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\player default area.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Attack  Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Attack  Down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Attack Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Attack Right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Attack Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Attack Up.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Attack Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Attack Left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Block Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Block Down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Block Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Block Right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Block Up.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Block Up.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Block Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Block Left.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11842,6 +11914,830 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "PlayerAttackArea",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 150.5,
+                            "y": 108.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 139
+                          },
+                          {
+                            "x": 120,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 108.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atk Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 150.5,
+                            "y": 108.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 139
+                          },
+                          {
+                            "x": 120,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 108.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Attack  Down.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 201.5,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 186.5,
+                            "y": 155.5
+                          },
+                          {
+                            "x": 140.5,
+                            "y": 176.5
+                          },
+                          {
+                            "x": 86.5,
+                            "y": 161.5
+                          },
+                          {
+                            "x": 66.5,
+                            "y": 106.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atk Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 153.5,
+                            "y": 108
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 120.5,
+                            "y": 142.5
+                          },
+                          {
+                            "x": 115.5,
+                            "y": 108
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Attack Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 197.5,
+                            "y": 52
+                          },
+                          {
+                            "x": 219.5,
+                            "y": 100
+                          },
+                          {
+                            "x": 201.5,
+                            "y": 149.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 172
+                          },
+                          {
+                            "x": 149.5,
+                            "y": 30.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atk Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 150.5,
+                            "y": 108.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 139
+                          },
+                          {
+                            "x": 120,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 108.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Attack Up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 133.5,
+                            "y": 26
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 50
+                          },
+                          {
+                            "x": 200,
+                            "y": 92
+                          },
+                          {
+                            "x": 72.5,
+                            "y": 94
+                          },
+                          {
+                            "x": 82.5,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Atk Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 154.5,
+                            "y": 108.5
+                          },
+                          {
+                            "x": 147.5,
+                            "y": 141.5
+                          },
+                          {
+                            "x": 118.5,
+                            "y": 136.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 99.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Attack Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 92.5,
+                            "y": 38.5
+                          },
+                          {
+                            "x": 91.5,
+                            "y": 168.5
+                          },
+                          {
+                            "x": 40,
+                            "y": 155.5
+                          },
+                          {
+                            "x": 24,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 40,
+                            "y": 50
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "PlayerBlockArea",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 150.5,
+                            "y": 108.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 139
+                          },
+                          {
+                            "x": 120,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 119,
+                            "y": 108.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Block Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 142.5,
+                            "y": 104.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 130
+                          },
+                          {
+                            "x": 130,
+                            "y": 142
+                          },
+                          {
+                            "x": 116.5,
+                            "y": 117.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Block Down.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 201.5,
+                            "y": 103.5
+                          },
+                          {
+                            "x": 195.5,
+                            "y": 156.5
+                          },
+                          {
+                            "x": 140.5,
+                            "y": 176.5
+                          },
+                          {
+                            "x": 86.5,
+                            "y": 161.5
+                          },
+                          {
+                            "x": 66.5,
+                            "y": 106.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Block Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 147.5,
+                            "y": 110.5
+                          },
+                          {
+                            "x": 145.5,
+                            "y": 139.5
+                          },
+                          {
+                            "x": 113.5,
+                            "y": 137.5
+                          },
+                          {
+                            "x": 120.5,
+                            "y": 106
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Block Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 186,
+                            "y": 54.5
+                          },
+                          {
+                            "x": 206,
+                            "y": 100.5
+                          },
+                          {
+                            "x": 188,
+                            "y": 144.5
+                          },
+                          {
+                            "x": 134,
+                            "y": 169.5
+                          },
+                          {
+                            "x": 132.5,
+                            "y": 26.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Block Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 122.5,
+                            "y": 107.5
+                          },
+                          {
+                            "x": 152.5,
+                            "y": 112
+                          },
+                          {
+                            "x": 146.5,
+                            "y": 141.5
+                          },
+                          {
+                            "x": 116.5,
+                            "y": 136
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Block Up.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 133.5,
+                            "y": 26
+                          },
+                          {
+                            "x": 190.5,
+                            "y": 50
+                          },
+                          {
+                            "x": 200,
+                            "y": 92
+                          },
+                          {
+                            "x": 72.5,
+                            "y": 94
+                          },
+                          {
+                            "x": 82.5,
+                            "y": 54
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Block Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\player default area.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 120.5,
+                            "y": 106
+                          },
+                          {
+                            "x": 148,
+                            "y": 110.5
+                          },
+                          {
+                            "x": 150.5,
+                            "y": 140
+                          },
+                          {
+                            "x": 122,
+                            "y": 140.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Block Left.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 125.5,
+                            "y": 36
+                          },
+                          {
+                            "x": 126,
+                            "y": 169.5
+                          },
+                          {
+                            "x": 73.5,
+                            "y": 149.5
+                          },
+                          {
+                            "x": 57.5,
+                            "y": 102
+                          },
+                          {
+                            "x": 74.5,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11855,6 +12751,12 @@
           },
           {
             "objectName": "PlayerShadow"
+          },
+          {
+            "objectName": "PlayerAttackArea"
+          },
+          {
+            "objectName": "PlayerBlockArea"
           }
         ]
       },
@@ -12056,7 +12958,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Movement",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13711,6 +14612,153 @@
                 "textG": 0,
                 "textR": 0
               },
+              "comment": "Attack Area"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_atakking",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Attack 1 Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerAttackArea",
+                        "Animation",
+                        "=",
+                        "\"Atk Down\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Attack 1 Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerAttackArea",
+                        "Animation",
+                        "=",
+                        "\"Atk Right\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Attack 1 Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerAttackArea",
+                        "Animation",
+                        "=",
+                        "\"Atk Up\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Attack 1 Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerAttackArea",
+                        "Animation",
+                        "=",
+                        "\"Atk Left\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
               "comment": "Block"
             },
             {
@@ -13907,6 +14955,223 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Block Area"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_blocking",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Block Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerBlockArea",
+                        "Animation",
+                        "=",
+                        "\"Block Down\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Block Right\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerBlockArea",
+                        "Animation",
+                        "=",
+                        "\"Block Right\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Block Up\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerBlockArea",
+                        "Animation",
+                        "=",
+                        "\"Block Up\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Block Left\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PlayerBlockArea",
+                        "Animation",
+                        "=",
+                        "\"Block Left\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Block and Attack areas"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_atakking",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PlayerAttackArea",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_blocking",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PlayerBlockArea",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -13916,7 +15181,6 @@
           "colorG": 155,
           "colorR": 155,
           "creationTime": 0,
-          "folded": true,
           "name": "Misc",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13946,12 +15210,56 @@
                 },
                 {
                   "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PlayerAttackArea",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PlayerBlockArea",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ChangePlan"
                   },
                   "parameters": [
                     "PlayerShadow",
                     "=",
                     "Player.ZOrder()-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "PlayerAttackArea",
+                    "=",
+                    "Player.ZOrder()+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "PlayerBlockArea",
+                    "=",
+                    "Player.ZOrder()+1"
                   ]
                 }
               ]
@@ -13966,6 +15274,30 @@
                   },
                   "parameters": [
                     "PlayerShadow",
+                    "=",
+                    "Player.X()",
+                    "=",
+                    "Player.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerAttackArea",
+                    "=",
+                    "Player.X()",
+                    "=",
+                    "Player.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "PlayerBlockArea",
                     "=",
                     "Player.X()",
                     "=",
