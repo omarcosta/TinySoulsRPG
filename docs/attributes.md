@@ -37,12 +37,30 @@ ALv.: Attribute Level (1 to 99)
 
 ### 2. Real formula
 
-Player.current.hp_max: `Player.base.hp * (1 + Player.ASF.vigor * (Player.attributes.vigor        - 1))`
-Player.current.mp_max: `Player.base.mp * (1 + Player.ASF.mind * (Player.attributes.mind         - 1 ))`
-Player.current.stamina_max: `Player.base.stamina * (1 + Player.ASF.endurance * (Player.attributes.endurance    - 1))`
-Player.current.damage: `Player.base.damage  * (1 + Player.ASF.strength * (Player.attributes.strength     - 1))`
-Player.current.magic: `Player.base.magic * (1 + Player.ASF.intelligence * (Player.attributes.intelligence - 1))`
-Player.current.rate: `Player.base.rate * (1 + Player.ASF.luck * (Player.attributes.luck - 1))`
+HP (Player.current.hp_max): 
+```
+Player.base.hp * (1 + Player.ASF.vigor * (Player.attributes.vigor - 1))
+```
+MP (Player.current.mp_max): 
+```
+Player.base.mp * (1 + Player.ASF.mind * (Player.attributes.mind - 1 ))
+```
+Stamina (Player.current.stamina_max): 
+```
+Player.base.stamina * (1 + Player.ASF.endurance * (Player.attributes.endurance - 1))
+```
+Damage (Player.current.damage): 
+```
+Player.base.damage  * (1 + Player.ASF.strength * (Player.attributes.strength - 1))
+```
+Magic (Player.current.magic): 
+```
+Player.base.magic * (1 + Player.ASF.intelligence * (Player.attributes.intelligence - 1))
+```
+Rate (Player.current.rate): 
+```
+Player.base.rate * (1 + Player.ASF.luck * (Player.attributes.luck - 1))
+```
 
 ---
 ## Pontos de melhoria
