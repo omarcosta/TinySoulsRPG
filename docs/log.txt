@@ -1,0 +1,19 @@
+"Player angle:" + ToString(Player.TopDownMovement::Angle()) +NewLine()+ 
+"Player orientation: " + Player.orientation +NewLine()+ 
+NewLine()+ 
+"Atackking: " + Player.is_atakking +NewLine()+ 
+"Blocking: " + Player.is_blocking +NewLine()+ 
+NewLine()+ 
+
+"> Current stats" +NewLine()+
+"HP: "+Player.current.hp+" / "+Player.current.hp_max+" [vigor:"+Player.attributes.vigor+"]"+NewLine()+
+"Stamina: "+Player.current.stamina+" / "+Player.current.stamina_max+" [endurance:"+Player.attributes.endurance+"]"+NewLine()+
+"MP: "+Player.current.mp+" / "+Player.current.mp_max+" [mind:"+Player.attributes.mind+"]"+NewLine()+
+"Damage: "+Player.current.damage+" [strength:"+Player.attributes.strength+"]"+NewLine()+
+"Magic: "+Player.current.magic+" [Intelligence:"+Player.attributes.intelligence+"]"+NewLine()+
+"Luck: "+Player.current.rate+" [luck:"+Player.attributes.luck+"]"+NewLine()+
+NewLine()+
+
+"Breakable Obj"+ NewLine() +
+"Obj: " + Breakable_Obj.ObjectName() + NewLine() + 
+"Life: " + Breakable_Obj.life + " / " + Breakable_Obj.max_life
