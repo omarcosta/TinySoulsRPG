@@ -4884,36 +4884,74 @@
             {
               "name": "endurance",
               "type": "number",
-              "value": 1
+              "value": 99
             },
             {
               "name": "intelligence",
               "type": "number",
-              "value": 1
+              "value": 99
             },
             {
               "name": "luck",
               "type": "number",
-              "value": 1
+              "value": 99
             },
             {
               "name": "mind",
               "type": "number",
-              "value": 1
+              "value": 99
             },
             {
               "name": "strength",
               "type": "number",
-              "value": 1
+              "value": 99
             },
             {
               "name": "vigor",
               "type": "number",
-              "value": 1
+              "value": 99
             }
           ]
         },
         {
+          "folded": true,
+          "name": "ASF",
+          "type": "structure",
+          "children": [
+            {
+              "name": "endurance",
+              "type": "number",
+              "value": 0.0306
+            },
+            {
+              "name": "intelligence",
+              "type": "number",
+              "value": 0.091
+            },
+            {
+              "name": "luck",
+              "type": "number",
+              "value": 0.0205
+            },
+            {
+              "name": "mind",
+              "type": "number",
+              "value": 0.051
+            },
+            {
+              "name": "strength",
+              "type": "number",
+              "value": 0.091
+            },
+            {
+              "name": "vigor",
+              "type": "number",
+              "value": 0.0578
+            }
+          ]
+        },
+        {
+          "folded": true,
           "name": "base",
           "type": "structure",
           "children": [
@@ -17253,7 +17291,13 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "increase_attributes",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -20699,7 +20743,7 @@
                     "Logging",
                     "Text",
                     "=",
-                    "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) +NewLine()+ \n\"Player orientation: \" + Player.orientation +NewLine()+ \nNewLine()+ \n\"Atackking: \" + Player.is_atakking +NewLine()+ \n\"Blocking: \" + Player.is_blocking +NewLine()+ \nNewLine()+ \n\n\"> Current stats\" +NewLine()+\n\"HP: \"+Player.current.hp+\" / \"+Player.current.hp_max+\" [vigor:\"+Player.attributes.vigor+\"]\"+NewLine()+\n\"Stamina: \"+Player.current.stamina+\" / \"+Player.current.stamina_max+\" [endurance:\"+Player.attributes.endurance+\"]\"+NewLine()+\n\"MP: \"+Player.current.mp+\" / \"+Player.current.mp_max+\" [mind:\"+Player.attributes.mind+\"]\"+NewLine()+\n\"Damage: \"+Player.current.damage+\" [strength:\"+Player.attributes.strength+\"]\"+NewLine()+\n\"Magic: \"+Player.current.magic+\" [Intelligence:\"+Player.attributes.intelligence+\"]\"+NewLine()+\n\"Luck: \"+Player.current.rate+\" [luck:\"+Player.attributes.luck+\"]\"+NewLine()+\nNewLine()+\n\n\"Breakable Obj\"+ NewLine() +\n\"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \n\"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life"
+                    "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) +NewLine()+ \n\"Player orientation: \" + Player.orientation +NewLine()+ \nNewLine()+ \n\"Atackking: \" + Player.is_atakking +NewLine()+ \n\"Blocking: \" + Player.is_blocking +NewLine()+ \nNewLine()+ \n\n\"> Current stats\" +NewLine()+\n\"HP: \"+Player.current.hp+\" / \"+Player.current.hp_max+\" [vigor:\"+Player.attributes.vigor+\"]\"+NewLine()+\n\"Stamina: \"+Player.current.stamina+\" / \"+Player.current.stamina_max+\" [endurance:\"+Player.attributes.endurance+\"]\"+NewLine()+\n\"MP: \"+Player.current.mp+\" / \"+Player.current.mp_max+\" [mind:\"+Player.attributes.mind+\"]\"+NewLine()+\n\"Damage: \"+Player.current.damage+\" [strength:\"+Player.attributes.strength+\"]\"+NewLine()+\n\"Magic: \"+Player.current.magic+\" [Intelligence:\"+Player.attributes.intelligence+\"]\"+NewLine()+\n\"Luck: \"+Player.current.rate+\" [luck:\"+Player.attributes.luck+\"]\"+NewLine()+\n\"Increase LV: \"+increase_attributes +NewLine()+NewLine()+\n\n\"Breakable Obj\"+ NewLine() +\n\"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \n\"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life"
                   ]
                 }
               ]
@@ -21133,7 +21177,6 @@
           "colorG": 101,
           "colorR": 247,
           "creationTime": 0,
-          "folded": true,
           "name": "Attibutes",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24162,18 +24205,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Set attibutes"
-        },
-        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24188,101 +24219,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "Player",
-                "current.hp_max",
-                "=",
-                "ceil(Player.base.hp * (1 + 0.0578 * (Player.attributes.vigor - 1)))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.mp_max",
-                "=",
-                "ceil(Player.base.mp * (1 + 0.051 * (Player.attributes.mind - 1)))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.stamina_max",
-                "=",
-                "ceil(Player.base.stamina * (1 + 0.0306 * (Player.attributes.endurance - 1)))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.damage",
-                "=",
-                "ceil(Player.base.damage  * (1 + 0.091 * (Player.attributes.strength     - 1)))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.magic",
-                "=",
-                "ceil(Player.base.magic   * (1 + 0.091 * (Player.attributes.intelligence - 1)))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.rate",
-                "=",
-                "Player.base.rate    * (1 + 0.015 * (Player.attributes.luck         - 1))"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.hp",
-                "=",
-                "Player.current.hp_max"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.mp",
-                "=",
-                "Player.current.mp_max"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "current.stamina",
-                "=",
-                "Player.current.stamina_max"
+                "increase_attributes",
+                "True",
+                ""
               ]
             }
           ],
@@ -24341,6 +24283,150 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Set attibutes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "increase_attributes",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.hp_max",
+                "=",
+                "ceil(Player.base.hp * (1 + Player.ASF.vigor * (Player.attributes.vigor - 1)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.mp_max",
+                "=",
+                "ceil(Player.base.mp * (1 + Player.ASF.mind * (Player.attributes.mind - 1)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.stamina_max",
+                "=",
+                "ceil(Player.base.stamina * (1 + Player.ASF.endurance * (Player.attributes.endurance - 1)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.damage",
+                "=",
+                "ceil(Player.base.damage  * (1 + Player.ASF.strength * (Player.attributes.strength     - 1)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.magic",
+                "=",
+                "ceil(Player.base.magic   * (1 + Player.ASF.intelligence * (Player.attributes.intelligence - 1)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.rate",
+                "=",
+                "Player.base.rate    * (1 + Player.ASF.luck* (Player.attributes.luck         - 1))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.hp",
+                "=",
+                "Player.current.hp_max"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.mp",
+                "=",
+                "Player.current.mp_max"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "current.stamina",
+                "=",
+                "Player.current.stamina_max"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "increase_attributes",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Player on a altar"
         },
         {
@@ -24372,106 +24458,23 @@
                     "",
                     "\"e\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "Player",
-                    "current.damage",
-                    "=",
-                    "ceil(Player.base.damage  * (1 + 0.091 * (Player.attributes.strength     - 1)))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.stamina",
-                    "=",
-                    "Player.current.stamina_max"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.mp",
-                    "=",
-                    "Player.current.mp_max"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.hp",
-                    "=",
-                    "Player.current.hp_max"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.rate",
-                    "=",
-                    "Player.base.rate    * (1 + 0.015 * (Player.attributes.luck         - 1))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.hp_max",
-                    "=",
-                    "ceil(Player.base.hp * (1 + 0.0578 * (Player.attributes.vigor - 1)))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.mp_max",
-                    "=",
-                    "ceil(Player.base.mp * (1 + 0.051 * (Player.attributes.mind - 1)))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.stamina_max",
-                    "=",
-                    "ceil(Player.base.stamina * (1 + 0.0306 * (Player.attributes.endurance - 1)))"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "current.magic",
-                    "=",
-                    "ceil(Player.base.magic   * (1 + 0.091 * (Player.attributes.intelligence - 1)))"
+                    "increase_attributes",
+                    "True",
+                    ""
                   ]
                 }
               ]
