@@ -4917,6 +4917,30 @@
         "name": "assets\\images\\collision mask\\attack down.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Vision/top_90.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Vision\\top_90.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Vision/left_180.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Vision\\left_180.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/collision mask/Vision/down_270.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\collision mask\\Vision\\down_270.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -16095,7 +16119,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000019,
+        "zoomFactor": 0.35534345588169985,
         "windowMask": false
       },
       "objectsGroups": [
@@ -16190,8 +16214,8 @@
           "name": "Player",
           "persistentUuid": "ebc42c8b-0a0d-4831-b4f3-8da39588a5e7",
           "width": 256,
-          "x": 693,
-          "y": 183,
+          "x": 680,
+          "y": 317,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -16206,8 +16230,8 @@
           "name": "Breakable_1",
           "persistentUuid": "6c52958b-9748-425e-96ec-a47420ca4271",
           "width": 0,
-          "x": 345,
-          "y": 349,
+          "x": 448,
+          "y": 343,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -16772,176 +16796,32 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "bat",
-          "persistentUuid": "646df967-9353-415d-a227-afa0855b326b",
-          "width": 0,
-          "x": 339,
-          "y": 437,
-          "zOrder": 46,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "33a0bc60-b28f-4206-a917-5b07a5e27598",
-          "width": 0,
-          "x": 130,
-          "y": 36,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "1c01142b-eff4-4f44-b814-ceaaed6310f8",
-          "width": 0,
-          "x": 259,
-          "y": 37,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "95bd722e-33c8-4549-b107-9dab2904ed8c",
-          "width": 0,
-          "x": -39,
-          "y": 199,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 76,
           "customSize": true,
-          "depth": 1,
-          "height": 643,
+          "depth": 3,
+          "height": 76,
           "layer": "Background",
           "name": "NewSprite",
           "persistentUuid": "a3a99b09-3f8a-4364-b1df-469b056af601",
-          "width": 450,
-          "x": 364,
-          "y": -28,
+          "width": 1100,
+          "x": -514,
+          "y": 383,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 76,
           "layer": "Background",
           "name": "NewSprite",
-          "persistentUuid": "fdd5b90b-46a0-4ab2-8e8a-e8d4307afea6",
-          "width": 0,
-          "x": 377,
-          "y": 47,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "6b53ad55-4dea-4b5a-899c-70e8f22b82c3",
-          "width": 0,
-          "x": 344,
-          "y": 521,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "a6fbeda2-57aa-432e-acac-b4dcdf2b730b",
-          "width": 0,
-          "x": 225,
-          "y": 519,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "2e0a77d7-cac9-47f9-a995-7d82d4cc0a8f",
-          "width": 0,
-          "x": 104,
-          "y": 521,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "32f5c1f3-a92c-4e1a-a3ca-e013ccb904ae",
-          "width": 0,
-          "x": -15,
-          "y": 522,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 89,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "1dd9c616-968c-4fa1-8d08-45b43bae7ca7",
-          "width": 0,
-          "x": -42,
-          "y": 447,
+          "persistentUuid": "c3066ac6-fced-4021-bb8d-8da032e4ac1a",
+          "width": 1000,
+          "x": -227,
+          "y": 149,
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -16949,64 +16829,96 @@
         },
         {
           "angle": 90,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "1ecc56f4-c66d-4bc6-9cf4-48aa270ffedf",
-          "width": 0,
-          "x": -44,
-          "y": 321,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "4d00cde7-f9ea-4b29-9c22-c485d39f7c58",
-          "width": 0,
-          "x": 10,
-          "y": 39,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "Background",
-          "name": "NewSprite",
-          "persistentUuid": "ec34ce6b-dd42-440a-a0f4-80d96235af3b",
-          "width": 0,
-          "x": -102,
-          "y": 92,
-          "zOrder": 47,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 75,
           "customSize": true,
-          "depth": 1,
-          "height": 643,
+          "depth": 3,
+          "height": 76,
           "layer": "Background",
           "name": "NewSprite",
-          "persistentUuid": "415b4d61-9828-4d4f-bfb3-cac94084178d",
-          "width": 450,
-          "x": 420,
-          "y": 271,
+          "persistentUuid": "2f3fd4da-c1d6-4c24-bb65-16d700753274",
+          "width": 700,
+          "x": 143,
+          "y": 486,
           "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 3,
+          "height": 76,
+          "layer": "Background",
+          "name": "NewSprite",
+          "persistentUuid": "5d9f7764-426e-4f3c-aac2-2a300c5f6ce0",
+          "width": 1000,
+          "x": -224,
+          "y": 661,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 3,
+          "height": 76,
+          "layer": "Background",
+          "name": "NewSprite",
+          "persistentUuid": "7cd4bd84-3b39-4da8-b7d1-18e68d3aacfb",
+          "width": 200,
+          "x": 390,
+          "y": 194,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "07405095-dc51-4445-9666-41429cea65c7",
+          "width": 0,
+          "x": 145,
+          "y": 566,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "9796f521-b88e-46a8-8e5b-7052190277a0",
+          "width": 0,
+          "x": 595,
+          "y": 487,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "0a4b2ed7-c319-4696-a23b-32340d04766f",
+          "width": 0,
+          "x": 799,
+          "y": 201,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19444,45 +19356,38 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "control",
-              "persistentUuid": "87c76fd8-5b4a-40b6-acbf-0491c2f2902c",
+              "name": "Control",
               "type": "structure",
               "children": [
                 {
-                  "name": "count",
+                  "name": "combat",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "count_change_orientation",
                   "type": "number",
                   "value": 0
                 },
                 {
-                  "folded": true,
-                  "name": "mode",
-                  "persistentUuid": "36a6a003-6ecc-4843-bee3-81d5cdacdda6",
-                  "type": "structure",
-                  "children": [
-                    {
-                      "name": "combat",
-                      "persistentUuid": "1ea71fb5-ca7a-4138-829a-ec490bd2db2c",
-                      "type": "boolean",
-                      "value": false
-                    },
-                    {
-                      "name": "passive",
-                      "persistentUuid": "393b3115-98ab-4704-892b-081ccf5ca8bc",
-                      "type": "boolean",
-                      "value": true
-                    }
-                  ]
+                  "name": "count_exclude_obj",
+                  "type": "number",
+                  "value": 5
+                },
+                {
+                  "name": "count_exit_combat",
+                  "type": "number",
+                  "value": 3
                 },
                 {
                   "name": "orientation",
-                  "persistentUuid": "ae7088ac-196e-490d-a492-2a4b1fa4ac13",
                   "type": "number",
                   "value": 0
                 }
               ]
             },
             {
-              "name": "base",
+              "name": "Base",
               "type": "structure",
               "children": [
                 {
@@ -19518,7 +19423,7 @@
                 {
                   "name": "speed",
                   "type": "number",
-                  "value": 200
+                  "value": 115
                 },
                 {
                   "name": "stamina",
@@ -19526,11 +19431,39 @@
                   "value": 100
                 }
               ]
+            },
+            {
+              "name": "Areas",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "combat_height",
+                  "type": "number",
+                  "value": 200
+                },
+                {
+                  "name": "combat_widht",
+                  "type": "number",
+                  "value": 200
+                },
+                {
+                  "name": "vision_height",
+                  "type": "number",
+                  "value": 500
+                },
+                {
+                  "name": "vision_widht",
+                  "type": "number",
+                  "value": 300
+                }
+              ]
             }
           ],
           "effects": [],
           "behaviors": [
             {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -19540,9 +19473,7 @@
               "ignoreDefaultControls": true,
               "maxSpeed": 200,
               "movementAngleOffset": 0,
-              "name": "TopDownMovement",
               "rotateObject": false,
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "viewpoint": "TopDown"
             }
           ],
@@ -19846,22 +19777,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "NewPanelSprite",
-          "rightMargin": 0,
-          "texture": "",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
@@ -19920,11 +19835,129 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "EnemyVisionArea",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\images\\collision mask\\Vision\\top_90.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 48,
+                        "y": 56
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 96,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Enemies",
+            "children": [
+              {
+                "objectName": "bat"
+              },
+              {
+                "objectName": "EnemyVisionArea"
+              }
+            ]
+          },
+          {
+            "folderName": "Misc",
+            "children": [
+              {
+                "folderName": "Objects",
+                "children": [
+                  {
+                    "objectName": "Breakable_1"
+                  }
+                ]
+              },
+              {
+                "folderName": "Attributes",
+                "children": [
+                  {
+                    "objectName": "Vigor"
+                  },
+                  {
+                    "objectName": "Strength"
+                  },
+                  {
+                    "objectName": "Mind"
+                  },
+                  {
+                    "objectName": "Luck"
+                  },
+                  {
+                    "objectName": "Intelligence"
+                  },
+                  {
+                    "objectName": "Endurance"
+                  }
+                ]
+              },
+              {
+                "objectName": "NewSprite"
+              },
+              {
+                "objectName": "Key_E"
+              },
+              {
+                "objectName": "PressKey"
+              },
+              {
+                "objectName": "TopDownTerrainGlass32x32"
+              },
+              {
+                "objectName": "Logging"
+              }
+            ]
+          },
           {
             "folderName": "Altar",
             "children": [
@@ -19937,59 +19970,7 @@
             ]
           },
           {
-            "folderName": "Attributes",
-            "children": [
-              {
-                "objectName": "Vigor"
-              },
-              {
-                "objectName": "Strength"
-              },
-              {
-                "objectName": "Mind"
-              },
-              {
-                "objectName": "Luck"
-              },
-              {
-                "objectName": "Intelligence"
-              },
-              {
-                "objectName": "Endurance"
-              }
-            ]
-          },
-          {
-            "objectName": "Logging"
-          },
-          {
-            "folderName": "Objects",
-            "children": [
-              {
-                "objectName": "Breakable_1"
-              }
-            ]
-          },
-          {
             "folderName": "Player"
-          },
-          {
-            "objectName": "Key_E"
-          },
-          {
-            "objectName": "PressKey"
-          },
-          {
-            "objectName": "TopDownTerrainGlass32x32"
-          },
-          {
-            "objectName": "bat"
-          },
-          {
-            "objectName": "NewPanelSprite"
-          },
-          {
-            "objectName": "NewSprite"
           }
         ]
       },
@@ -20087,7 +20068,7 @@
                     "Logging",
                     "Text",
                     "=",
-                    "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) +NewLine()+ \n\"Player orientation: \" + Player.orientation +NewLine()+ \nNewLine()+ \n\"Atackking: \" + Player.is_atakking +NewLine()+ \n\"Blocking: \" + Player.is_blocking +NewLine()+ \nNewLine()+ \n\n\"> Current stats\" +NewLine()+\n\"HP: \"+Player.current.hp+\" / \"+Player.current.hp_max+\" [vigor:\"+Player.attributes.vigor+\"]\"+NewLine()+\n\"Stamina: \"+Player.current.stamina+\" / \"+Player.current.stamina_max+\" [endurance:\"+Player.attributes.endurance+\"]\"+NewLine()+\n\"MP: \"+Player.current.mp+\" / \"+Player.current.mp_max+\" [mind:\"+Player.attributes.mind+\"]\"+NewLine()+\n\"Damage: \"+Player.current.damage+\" [strength:\"+Player.attributes.strength+\"]\"+NewLine()+\n\"Magic: \"+Player.current.magic+\" [Intelligence:\"+Player.attributes.intelligence+\"]\"+NewLine()+\n\"Luck: \"+Player.current.rate+\" [luck:\"+Player.attributes.luck+\"]\"+NewLine()+\n\"Increase LV: \"+increase_attributes +NewLine()+NewLine()+\n\n\"Breakable Obj\"+ NewLine() +\n\"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \n\"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life +NewLine()+NewLine()+\n\"Enemy orientation: \"+ Enemies.control.orientation + NewLine()+\n\"HP: \"+Enemies.base.hp + NewLine()+\n\"Timer dead: \"+\nToString(Enemies.ObjectTimerElapsedTime(\"dead\"))+NewLine()+\"Speed: \"+ ToString(Enemies.TopDownMovement::Speed()) + \" / \"+ ToString(Enemies.TopDownMovement::MaxSpeed())"
+                    "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) + NewLine() + \"Player orientation: \" + Player.orientation + NewLine() + NewLine() + \"Atackking: \" + Player.is_atakking + NewLine() + \"Blocking: \" + Player.is_blocking + NewLine() + NewLine() + \"> Current stats\" + NewLine() + \"HP: \" + Player.current.hp + \" / \" + Player.current.hp_max + \" [vigor:\" + Player.attributes.vigor + \"]\" + NewLine() + \"Stamina: \" + Player.current.stamina + \" / \" + Player.current.stamina_max + \" [endurance:\" + Player.attributes.endurance + \"]\" + NewLine() + \"MP: \" + Player.current.mp + \" / \" + Player.current.mp_max + \" [mind:\" + Player.attributes.mind + \"]\" + NewLine() + \"Damage: \" + Player.current.damage + \" [strength:\" + Player.attributes.strength + \"]\" + NewLine() + \"Magic: \" + Player.current.magic + \" [Intelligence:\" + Player.attributes.intelligence + \"]\" + NewLine() + \"Luck: \" + Player.current.rate + \" [luck:\" + Player.attributes.luck + \"]\" + NewLine() + \"Increase LV: \" + increase_attributes + NewLine() + NewLine() + \"Breakable Obj\" + NewLine() + \"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life + NewLine() + NewLine() + \"Enemy orientation: \" + Enemies.Control.orientation + NewLine() + \"HP: \" + Enemies.Base.hp + NewLine() + \"Timer dead: \" + Enemies.Control.count_exclude_obj+ NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Angle: \" + ToString(Enemies.TopDownMovement::Angle())+NewLine()+ \"Combat mode: \"+Enemies.Control.combat +NewLine()+\"Exit combat in: \"+Enemies.Control.count_exit_combat+ NewLine() + NewLine() + \"Number of Visions: \" + ToString(SceneInstancesCount(EnemyVisionArea)) + NewLine() + \"Number of enemy: \" + ToString(SceneInstancesCount(Enemies))"
                   ]
                 }
               ]
@@ -20307,7 +20288,7 @@
           "isLocked": false,
           "name": "BGL2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -21239,9 +21220,9 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "base.hp",
+                        "Base.hp",
                         "=",
-                        "Enemies.base.hp - Player.current.damage"
+                        "Enemies.Base.hp - Player.current.damage"
                       ]
                     }
                   ]
@@ -23811,7 +23792,6 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
-              "folded": true,
               "name": "Random movement",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -23837,7 +23817,7 @@
                         "Enemies",
                         "TopDownMovement",
                         "=",
-                        "Enemies.base.speed"
+                        "Enemies.Base.speed"
                       ]
                     },
                     {
@@ -23862,14 +23842,8 @@
                         "Enemies",
                         "\"orientation\"",
                         ">=",
-                        "Enemies.control.count"
+                        "Enemies.Control.count_change_orientation"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -23879,7 +23853,7 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "control.count",
+                        "Control.count_change_orientation",
                         "=",
                         "RandomInRange(1,5)"
                       ]
@@ -23890,7 +23864,7 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "control.orientation",
+                        "Control.orientation",
                         "=",
                         "RandomInRange(0, 8)"
                       ]
@@ -23914,8 +23888,7 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
-              "folded": true,
-              "name": "Set orientations",
+              "name": "Movement - Passive mode",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
@@ -23928,8 +23901,8 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "control.mode.passive",
-                        "True",
+                        "Control.combat",
+                        "False",
                         ""
                       ]
                     },
@@ -23939,7 +23912,7 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "base.hp",
+                        "Base.hp",
                         ">",
                         "0"
                       ]
@@ -23954,7 +23927,7 @@
                         "Enemies",
                         "TopDownMovement",
                         "=",
-                        "Enemies.base.speed * 0.3"
+                        "Enemies.Base.speed * 0.6"
                       ]
                     }
                   ],
@@ -23968,7 +23941,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "0"
                           ]
@@ -23985,7 +23958,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "1"
                           ]
@@ -24012,7 +23985,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "2"
                           ]
@@ -24048,7 +24021,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "3"
                           ]
@@ -24075,7 +24048,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "4"
                           ]
@@ -24111,7 +24084,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "5"
                           ]
@@ -24143,7 +24116,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "6"
                           ]
@@ -24179,7 +24152,7 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
                             "=",
                             "7"
                           ]
@@ -24206,7 +24179,356 @@
                           },
                           "parameters": [
                             "Enemies",
-                            "control.orientation",
+                            "Control.orientation",
+                            "=",
+                            "8"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateDownKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "name": "Movement - Combat mode",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.combat",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Base.hp",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Player",
+                        "Enemies.Base.speed",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::MaxSpeed"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement",
+                            "=",
+                            "Enemies.Base.speed"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateUpKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateUpKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "4"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateUpKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "6"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateDownKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
+                            "=",
+                            "7"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::SimulateDownKey"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.orientation",
                             "=",
                             "8"
                           ]
@@ -24269,16 +24591,10 @@
                       },
                       "parameters": [
                         "Enemies",
-                        "base.hp",
+                        "Base.hp",
                         "<=",
                         "0"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -24302,44 +24618,13 @@
                         "TopDownMovement",
                         "yes"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetObjectTimer"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "\"dead\""
-                      ]
                     }
                   ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CompareObjectTimer"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "\"dead\"",
-                        ">=",
-                        "3"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        ""
-                      ]
-                    }
-                  ]
+                  "conditions": [],
+                  "actions": []
                 },
                 {
                   "type": "BuiltinCommonInstructions::Comment",
@@ -24376,7 +24661,7 @@
                       "parameters": [
                         "Enemies",
                         "Flippable",
-                        "yes"
+                        "no"
                       ]
                     }
                   ]
@@ -24404,7 +24689,460 @@
                       "parameters": [
                         "Enemies",
                         "Flippable",
-                        "no"
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Delete enemies dead",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Base.hp",
+                        "<=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Animation"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Animation",
+                        "=",
+                        "\"dead\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.count_exclude_obj",
+                        "=",
+                        "Enemies.Control.count_exclude_obj - TimeDelta()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.count_exclude_obj",
+                            "<=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "EnemyVisionArea",
+                            "Enemies",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "EnemyVisionArea",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Delete"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "name": "Enemies vision area",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyVisionArea",
+                        "Enemies.X()",
+                        "Enemies.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "Resizable",
+                        "=",
+                        "Enemies.Areas.vision_widht"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "Resizable",
+                        "=",
+                        "Enemies.Areas.vision_height"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemyVisionArea"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyVisionArea",
+                        "Enemies",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetCenter"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "=",
+                        "Enemies.X()",
+                        "=",
+                        "Enemies.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "=",
+                        "Enemies.TopDownMovement::Angle() +90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.combat",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyVisionArea",
+                        "Enemies",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "=",
+                        "Player.TopDownMovement::Angle() + 90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.combat",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemyVisionArea",
+                        "Enemies",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "=",
+                        "Enemies.TopDownMovement::Angle() +90"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemyVisionArea",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.combat",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.count_exit_combat",
+                        "=",
+                        "5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        "Player",
+                        "",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.combat",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemyVisionArea",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.count_exit_combat",
+                        "=",
+                        "Enemies.Control.count_exit_combat - TimeDelta()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.count_exit_combat",
+                            "<=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "LinkedObjects::PickObjectsLinkedTo"
+                          },
+                          "parameters": [
+                            "",
+                            "Enemies",
+                            "EnemyVisionArea",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.combat",
+                            "False",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
