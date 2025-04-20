@@ -5677,6 +5677,590 @@
         "name": "assets\\third-party\\Effect and FX Pixel All Free\\bat\\bat08.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "bkp/8 Directional Knight Character/KnightAdvCombat/Knock/Knight_Knock_dir1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bkp\\8 Directional Knight Character\\KnightAdvCombat\\Knock\\Knight_Knock_dir1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Left9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Left9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Right9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Right9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Top9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Top9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Hurt Down9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Hurt Down9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Left/Hurt Left9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Top/Hurt Top9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Right/Hurt Right9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/8 Directional Knight Character/Hurt/Down/Hurt Down9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down9.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5710,6 +6294,7 @@
           "value": 200
         },
         {
+          "folded": true,
           "name": "attributes",
           "type": "structure",
           "children": [
@@ -5787,6 +6372,11 @@
           "type": "structure",
           "children": [
             {
+              "name": "accumulated_xp",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "damage",
               "type": "number",
               "value": 10
@@ -5819,6 +6409,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "current",
           "type": "structure",
           "children": [
@@ -5866,8 +6457,18 @@
               "name": "stamina_max",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "xp",
+              "type": "number",
+              "value": 0
             }
           ]
+        },
+        {
+          "name": "is_hurt",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -15225,6 +15826,1566 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Hurt Down",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down2.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down3.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down4.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down5.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down6.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down7.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down8.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Down\\Hurt Down9.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right2.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right3.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right4.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right5.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right6.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right7.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right8.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Right\\Hurt Right9.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt Top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top2.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top3.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top4.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top5.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top6.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top7.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top8.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Top\\Hurt Top9.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hurt Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left2.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left3.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left4.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left5.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left6.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left7.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left8.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\8 Directional Knight Character\\Hurt\\Left\\Hurt Left9.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 122,
+                      "y": 69.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 135,
+                    "y": 135
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 128,
+                    "y": 128
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 100
+                      },
+                      {
+                        "x": 145,
+                        "y": 145
+                      },
+                      {
+                        "x": 100,
+                        "y": 145
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -19129,6 +21290,11 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "XP",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -19199,20 +21365,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 4
+                        "x": 15.5,
+                        "y": 22.5
                       },
                       {
-                        "x": 41,
-                        "y": 4
+                        "x": 19.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 38.5,
-                        "y": 50
+                        "x": 30,
+                        "y": 17
                       },
                       {
-                        "x": 12.5,
-                        "y": 50
+                        "x": 33,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 17,
+                        "y": 33.5
                       }
                     ]
                   ]
@@ -19241,20 +21419,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 4
+                        "x": 15.5,
+                        "y": 22.5
                       },
                       {
-                        "x": 41,
-                        "y": 4
+                        "x": 19.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 38.5,
-                        "y": 50
+                        "x": 30,
+                        "y": 17
                       },
                       {
-                        "x": 12.5,
-                        "y": 50
+                        "x": 33,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 17,
+                        "y": 33.5
                       }
                     ]
                   ]
@@ -19283,20 +21473,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 4
+                        "x": 15.5,
+                        "y": 22.5
                       },
                       {
-                        "x": 41,
-                        "y": 4
+                        "x": 19.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 38.5,
-                        "y": 50
+                        "x": 30,
+                        "y": 17
                       },
                       {
-                        "x": 12.5,
-                        "y": 50
+                        "x": 33,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 17,
+                        "y": 33.5
                       }
                     ]
                   ]
@@ -19325,20 +21527,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 4
+                        "x": 15.5,
+                        "y": 22.5
                       },
                       {
-                        "x": 41,
-                        "y": 4
+                        "x": 19.5,
+                        "y": 16.5
                       },
                       {
-                        "x": 38.5,
-                        "y": 50
+                        "x": 30,
+                        "y": 17
                       },
                       {
-                        "x": 12.5,
-                        "y": 50
+                        "x": 33,
+                        "y": 21.5
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 24,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 17,
+                        "y": 33.5
                       }
                     ]
                   ]
@@ -19373,20 +21587,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 25
+                        "x": 16.5,
+                        "y": 27
                       },
                       {
-                        "x": 35,
-                        "y": 25.5
+                        "x": 24.5,
+                        "y": 27
                       },
                       {
-                        "x": 31.5,
+                        "x": 25,
                         "y": 39.5
                       },
                       {
-                        "x": 23.5,
-                        "y": 38
+                        "x": 15.5,
+                        "y": 39.5
                       }
                     ]
                   ]
@@ -19409,20 +21623,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 25
+                        "x": 16.5,
+                        "y": 27
                       },
                       {
-                        "x": 35,
-                        "y": 25.5
+                        "x": 24.5,
+                        "y": 27
                       },
                       {
-                        "x": 31.5,
+                        "x": 25,
                         "y": 39.5
                       },
                       {
-                        "x": 23.5,
-                        "y": 38
+                        "x": 15.5,
+                        "y": 39.5
                       }
                     ]
                   ]
@@ -19457,28 +21671,32 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14.5,
-                        "y": 29
+                        "x": 21.5,
+                        "y": 34.5
                       },
                       {
-                        "x": 28.5,
-                        "y": 27
+                        "x": 24.5,
+                        "y": 30.5
                       },
                       {
-                        "x": 41,
-                        "y": 31.5
+                        "x": 28,
+                        "y": 28
                       },
                       {
-                        "x": 40.5,
-                        "y": 39.5
+                        "x": 31.5,
+                        "y": 28
                       },
                       {
-                        "x": 35,
-                        "y": 42.5
+                        "x": 32,
+                        "y": 33
                       },
                       {
-                        "x": 18.5,
-                        "y": 39
+                        "x": 28,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 22.5,
+                        "y": 37
                       }
                     ]
                   ]
@@ -19776,6 +21994,38 @@
       "name": "Log",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "DevTools",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Active",
+          "type": "boolean",
+          "value": true
+        },
+        {
+          "name": "EnemiesAreas",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "LOG",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Active",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "PlayerAreas",
+          "type": "boolean",
+          "value": false
+        }
+      ]
     }
   ],
   "layouts": [
@@ -20562,28 +22812,43 @@
           "keepRatio": true,
           "layer": "",
           "name": "bat",
-          "persistentUuid": "07405095-dc51-4445-9666-41429cea65c7",
+          "persistentUuid": "67a18e33-2fa0-4ee4-a71e-0a308f195aac",
           "width": 0,
-          "x": 145,
-          "y": 566,
-          "zOrder": 54,
+          "x": 837,
+          "y": 210,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 64,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
           "name": "bat",
-          "persistentUuid": "9796f521-b88e-46a8-8e5b-7052190277a0",
-          "width": 64,
-          "x": 849,
-          "y": 218,
-          "zOrder": 55,
+          "persistentUuid": "a2c7c347-42b9-488d-adc1-f9f9a620cab4",
+          "width": 0,
+          "x": 228,
+          "y": 407,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "06aa9d12-7b5b-435c-85d7-d6f8732d19b4",
+          "width": 0,
+          "x": 228,
+          "y": 559,
+          "zOrder": 53,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22704,20 +24969,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 16,
-                            "y": 17
+                            "x": 17,
+                            "y": 21
                           },
                           {
-                            "x": 79.5,
-                            "y": 17
+                            "x": 20,
+                            "y": 18.5
                           },
                           {
-                            "x": 80,
-                            "y": 42
+                            "x": 76.5,
+                            "y": 18.5
                           },
                           {
-                            "x": 16,
-                            "y": 42
+                            "x": 79,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 79,
+                            "y": 41
+                          },
+                          {
+                            "x": 17.5,
+                            "y": 40.5
                           }
                         ]
                       ]
@@ -22771,20 +25044,36 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 13,
-                            "y": 62
+                            "x": 14,
+                            "y": 67.5
                           },
                           {
-                            "x": 50,
+                            "x": 18.5,
                             "y": 63
                           },
                           {
-                            "x": 50,
-                            "y": 88
+                            "x": 45.5,
+                            "y": 63.5
                           },
                           {
-                            "x": 13,
-                            "y": 88
+                            "x": 49.5,
+                            "y": 67.5
+                          },
+                          {
+                            "x": 49,
+                            "y": 83.5
+                          },
+                          {
+                            "x": 44,
+                            "y": 87
+                          },
+                          {
+                            "x": 19.5,
+                            "y": 86.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 84
                           }
                         ]
                       ]
@@ -24314,6 +26603,17 @@
                         "=",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_hurt",
+                        "False",
+                        ""
+                      ]
                     }
                   ],
                   "actions": [
@@ -24325,89 +26625,6 @@
                         "Player",
                         "is_atakking",
                         "True",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Player",
-                    "is_atakking",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "PlayerAttackArea",
-                        "Enemies",
-                        "",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Current.hp",
-                        "=",
-                        "Enemies.Current.hp - Player.current.damage"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "is_atakking",
-                        "False",
                         ""
                       ]
                     }
@@ -24486,6 +26703,17 @@
                         "Player",
                         "is_atakking",
                         "=",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_hurt",
+                        "False",
                         ""
                       ]
                     }
@@ -24586,6 +26814,17 @@
                         "True",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_hurt",
+                        "True",
+                        ""
+                      ]
                     }
                   ]
                 }
@@ -24670,6 +26909,17 @@
                     "Player",
                     "is_blocking",
                     "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_hurt",
+                    "False",
                     ""
                   ]
                 }
@@ -24896,6 +27146,17 @@
                   "parameters": [
                     "Player",
                     "is_blocking",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_hurt",
                     "False",
                     ""
                   ]
@@ -25133,6 +27394,251 @@
                         "\"Run Up-Left\""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Hurt"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_hurt",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "orientation",
+                        "=",
+                        "\"DOWN\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Hurt Down\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "orientation",
+                        "=",
+                        "\"UP\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Hurt Top\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"RIGHT\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"DOWN-RIGHT\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"UP-RIGHT\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Hurt Right\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"LEFT\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"DOWN-LEFT\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "orientation",
+                            "=",
+                            "\"UP-LEFT\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Hurt Left\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_hurt",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "is_hurt",
+                    "False",
+                    "2"
                   ]
                 }
               ]
@@ -26058,7 +28564,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Callibration Dev tools"
+              "comment": "Dev tools"
             },
             {
               "disabled": true,
@@ -26098,229 +28604,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "KeyFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"g\""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Enemies",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Enemies",
-                    "Control.cooldown_atk",
-                    "<",
-                    "0.5"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "orientation",
-                        "=",
-                        "\"DOWN\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PlayerBlockArea",
-                        "Animation",
-                        "=",
-                        "\"Block Down\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "orientation",
-                        "=",
-                        "\"UP\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PlayerBlockArea",
-                        "Animation",
-                        "=",
-                        "\"Block Up\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"RIGHT\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"DOWN-RIGHT\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"UP-RIGHT\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PlayerBlockArea",
-                        "Animation",
-                        "=",
-                        "\"Block Right\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"LEFT\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"DOWN-LEFT\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "StringObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "orientation",
-                            "=",
-                            "\"UP-LEFT\""
-                          ]
-                        }
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "PlayerBlockArea",
-                        "Animation",
-                        "=",
-                        "\"Block Left\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -26329,10 +28612,49 @@
       "name": "GameController",
       "events": [
         {
-          "colorB": 27,
+          "colorB": 105,
           "colorG": 2,
-          "colorR": 208,
+          "colorR": 57,
           "creationTime": 0,
+          "folded": true,
+          "name": "DevTools",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "DevTools.Active",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "DevTools"
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 42,
+          "colorG": 87,
+          "colorR": 139,
+          "creationTime": 0,
+          "folded": true,
           "name": "Global Collisions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26476,10 +28798,575 @@
           "parameters": []
         },
         {
-          "colorB": 35,
-          "colorG": 166,
-          "colorR": 245,
+          "colorB": 27,
+          "colorG": 2,
+          "colorR": 208,
           "creationTime": 0,
+          "name": "Enemies fighting with the Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemies",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyAtkArea",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Player: Attack hit"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_atakking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerAttackArea",
+                            "Enemies",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            "=",
+                            "Enemies.Current.hp - Player.current.damage"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.combat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Animation"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_atakking",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "EnemyAtkArea",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_attacking",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Enemy: Attack hit"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "Player",
+                        "EnemyAtkArea",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_atk",
+                            "<=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerBlockArea",
+                            "Enemies",
+                            "False",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_attacking",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "current.hp",
+                            "=",
+                            "Player.current.hp - Enemies.Current.damage"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_atk",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "is_atakking",
+                                "=",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "is_blocking",
+                                "=",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "is_hurt",
+                                "True",
+                                "2"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "cooldown++"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "TopDownMovementBehavior::IsMoving"
+                      },
+                      "parameters": [
+                        "Player",
+                        "TopDownMovement"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerBlockArea",
+                            "Enemies",
+                            "False",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "PlayerAttackArea",
+                            "Enemies",
+                            "False",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.cooldown_atk",
+                        "=",
+                        "Enemies.Control.cooldown_atk + 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_knocked",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_knocked",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "Enemies"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Pathfinding",
+                        "yes"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_knocked",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.cooldown_knock",
+                        "=",
+                        "Enemies.Control.cooldown_knock - TimeDelta()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Pathfinding",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AddForceAL"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "AngleBetweenPositions(Player.X(), Player.Y(), Enemies.X(), Enemies.Y())",
+                            "1600",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_dead",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.cooldown_knock",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_knocked",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.cooldown_knock",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 51,
+          "colorG": 187,
+          "colorR": 3,
+          "creationTime": 0,
+          "folded": true,
           "name": "Attributes management (Level Up)",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27344,6 +30231,28 @@
                       "actions": [
                         {
                           "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                          },
+                          "parameters": [
+                            "bat",
+                            "Resizable",
+                            "=",
+                            "90"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                          },
+                          "parameters": [
+                            "bat",
+                            "Resizable",
+                            "=",
+                            "90"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
@@ -27438,7 +30347,7 @@
                             "Enemies",
                             "Areas.vision_height",
                             "=",
-                            "500"
+                            "700"
                           ]
                         },
                         {
@@ -27449,7 +30358,7 @@
                             "Enemies",
                             "Areas.vision_widht",
                             "=",
-                            "300"
+                            "500"
                           ]
                         },
                         {
@@ -27460,7 +30369,7 @@
                             "Enemies",
                             "Areas.combat_height",
                             "=",
-                            "Enemies.Height()*1.5"
+                            "Enemies.Height()*1.2"
                           ]
                         },
                         {
@@ -27471,7 +30380,7 @@
                             "Enemies",
                             "Areas.combat_widht",
                             "=",
-                            "Enemies.Width()*1.5"
+                            "Enemies.Width()*1.2"
                           ]
                         },
                         {
@@ -27498,24 +30407,13 @@
                         },
                         {
                           "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "bat",
-                            "Resizable",
+                            "Enemies",
+                            "XP",
                             "=",
-                            "90"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                          },
-                          "parameters": [
-                            "bat",
-                            "Resizable",
-                            "=",
-                            "90"
+                            "150"
                           ]
                         }
                       ]
@@ -28386,7 +31284,7 @@
                                   "parameters": [
                                     "Player",
                                     "Enemies",
-                                    "50",
+                                    "15",
                                     ""
                                   ]
                                 },
@@ -28418,6 +31316,12 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
                         }
                       ]
                     }
@@ -29430,6 +32334,7 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
+              "disabled": true,
               "name": "Enemies fighting with the Player",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30165,6 +33070,64 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Test Scene",
+      "name": "DevTools",
+      "events": [
+        {
+          "colorB": 155,
+          "colorG": 155,
+          "colorR": 155,
+          "creationTime": 0,
+          "name": "LOGGING",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "DevTools.LOG.Active",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "All log events here..."
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ]
     }
