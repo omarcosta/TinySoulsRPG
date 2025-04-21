@@ -20279,7 +20279,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.1,
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -22073,7 +22073,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.584378441074096,
+        "zoomFactor": 0.2817259932079574,
         "windowMask": false
       },
       "objectsGroups": [
@@ -22141,23 +22141,6 @@
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 646,
-          "keepRatio": true,
-          "layer": "UI",
-          "name": "LOG",
-          "persistentUuid": "1933ef5d-2a96-4379-9772-3118a111abee",
-          "width": 436,
-          "x": 0,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": true,
@@ -25254,253 +25237,20 @@
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "External Events"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "GameController"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Player"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Enemies"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Local Events"
-        },
-        {
-          "colorB": 27,
-          "colorG": 2,
-          "colorR": 208,
+          "colorB": 0,
+          "colorG": 0,
+          "colorR": 0,
           "creationTime": 0,
-          "name": "Logging",
+          "name": "Import GameController",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "LOG",
-                    "=",
-                    "20",
-                    "=",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Log",
-                    "=",
-                    "\"\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
+              "type": "BuiltinCommonInstructions::Link",
+              "include": {
+                "includeConfig": 0
               },
-              "comment": "Reset log"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetStringVariable"
-                  },
-                  "parameters": [
-                    "Log",
-                    "=",
-                    "\"\""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "LOG",
-                        "Text",
-                        "=",
-                        " \n\"Destination: \" + ToString(Enemies.Pathfinding::DestinationX()) + NewLine()+ \"NextP: \"+ ToString(Enemies.Pathfinding::NextNodeX()) + NewLine()+ \"lastP: \" + ToString(Enemies.Pathfinding::LastNodeX())"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "LOG",
-                        "Text",
-                        "=",
-                        "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) + NewLine() + \"Player orientation: \" + Player.orientation + NewLine() + NewLine() + \"Atackking: \" + Player.is_atakking + NewLine() + \"Blocking: \" + Player.is_blocking + NewLine() + NewLine() + \"> Current stats\" + NewLine() + \"HP: \" + Player.current.hp + \" / \" + Player.current.hp_max + \" [vigor:\" + Player.attributes.vigor + \"]\" + NewLine() + \"Stamina: \" + Player.current.stamina + \" / \" + Player.current.stamina_max + \" [endurance:\" + Player.attributes.endurance + \"]\" + NewLine() + \"MP: \" + Player.current.mp + \" / \" + Player.current.mp_max + \" [mind:\" + Player.attributes.mind + \"]\" + NewLine() + \"Damage: \" + Player.current.damage + \" [strength:\" + Player.attributes.strength + \"]\" + NewLine() + \"Magic: \" + Player.current.magic + \" [Intelligence:\" + Player.attributes.intelligence + \"]\" + NewLine() + \"Luck: \" + Player.current.rate + \" [luck:\" + Player.attributes.luck + \"]\" + NewLine() + \"Increase LV: \" + increase_attributes + NewLine() + NewLine() + \"Breakable Obj\" + NewLine() + \"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life + NewLine() + NewLine() + \"Enemy orientation: \" + Enemies.Control.orientation + NewLine() + \"HP: \" + Enemies.Current.hp + NewLine() + \"Timer dead: \" + Enemies.Control.cooldown_excludeObj + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Angle: \" + ToString(Enemies.TopDownMovement::Angle()) + NewLine() + \"x,y (force): (\" + ToString(Enemies.ForceX()) + \" / \" + ToString(Enemies.ForceY()) + \")\" + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + Enemies.Control.cooldown_exitCombat + NewLine() + NewLine() + \"Number of Visions: \" + ToString(SceneInstancesCount(EnemyVisionArea)) + NewLine() + \"Number of enemy: \" + ToString(SceneInstancesCount(Enemies))"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": ""
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Log",
-                        "+",
-                        "\"HP: \"+Player.current.hp+\" / \"+Player.current.hp_max+NewLine()+\n\"MP: \"+Player.current.mp+\" / \"+Player.current.mp_max+NewLine()+\n\"STA: \"+Player.current.stamina+\" / \"+Player.current.stamina_max+NewLine()+NewLine()+\n\"Is ATK: \" + Player.is_atakking + NewLine()+\n\"Is BLK: \" + Player.is_blocking + NewLine()+NewLine()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemies",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Log",
-                        "+",
-                        "\"Enemy orientation: \" + Enemies.Control.orientation + NewLine() + \"HP: \" + Enemies.Current.hp + NewLine() + \"Timer dead: \" + Enemies.Control.cooldown_excludeObj + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Angle: \" + ToString(Enemies.TopDownMovement::Angle()) + NewLine() + \"x,y (force): (\" + ToString(Enemies.ForceX()) + \" / \" + ToString(Enemies.ForceY()) + \")\" + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + Enemies.Control.cooldown_exitCombat + NewLine() + \"---------------\" + NewLine()"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemies",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Log",
-                        "+",
-                        "\"HP: \" + Enemies.Current.hp + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Is attack: \" + Enemies.Control.is_attacking + NewLine() + \n\"Cooldown attack: \" + ToString(round(Enemies.Control.cooldown_atk*100)/100) + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + ToString(round(Enemies.Control.cooldown_exitCombat*100)/100) + NewLine() + \n\"Knock: \" + Enemies.Control.is_knocked+NewLine()+\n\"Force: \"+ ToString(Enemies.ForceLength())+NewLine()+\n\"Knock timer: \" + ToString(Enemies.ObjectTimerElapsedTime(\"knockcooldown\"))+NewLine()\n\n+\"---------------\" + NewLine()"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Print the log"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "LOG",
-                    "Text",
-                    "=",
-                    "Log"
-                  ]
-                }
-              ]
+              "target": "GameController"
             }
           ],
           "parameters": []
@@ -28640,12 +28390,12 @@
       "name": "GameController",
       "events": [
         {
-          "colorB": 105,
-          "colorG": 2,
-          "colorR": 57,
+          "colorB": 0,
+          "colorG": 0,
+          "colorR": 0,
           "creationTime": 0,
           "folded": true,
-          "name": "DevTools",
+          "name": "Import DevTools",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -28678,21 +28428,83 @@
           "parameters": []
         },
         {
+          "colorB": 0,
+          "colorG": 0,
+          "colorR": 0,
+          "creationTime": 0,
+          "name": "Import Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "Player"
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 0,
+          "colorG": 0,
+          "colorR": 0,
+          "creationTime": 0,
+          "name": "Import Enemies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemies",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Link",
+                  "include": {
+                    "includeConfig": 0
+                  },
+                  "target": "Enemies"
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "colorB": 42,
           "colorG": 87,
           "colorR": 139,
           "creationTime": 0,
-          "folded": true,
           "name": "Global Collisions",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "colorB": 27,
-              "colorG": 2,
-              "colorR": 208,
+              "colorB": 42,
+              "colorG": 87,
+              "colorR": 139,
               "creationTime": 0,
-              "folded": true,
               "name": "Separate objects",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -28767,10 +28579,11 @@
               "parameters": []
             },
             {
-              "colorB": 27,
-              "colorG": 2,
-              "colorR": 208,
+              "colorB": 42,
+              "colorG": 87,
+              "colorR": 139,
               "creationTime": 0,
+              "disabled": true,
               "name": "Add behavior \"Obstacle for pathfinding\"",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -28821,581 +28634,6 @@
                 }
               ],
               "parameters": []
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 27,
-          "colorG": 2,
-          "colorR": 208,
-          "creationTime": 0,
-          "name": "Enemies fighting with the Player",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Enemies",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "LinkedObjects::PickObjectsLinkedTo"
-                  },
-                  "parameters": [
-                    "",
-                    "EnemyAtkArea",
-                    "Enemies",
-                    ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 170,
-                    "g": 13,
-                    "r": 96,
-                    "textB": 155,
-                    "textG": 155,
-                    "textR": 155
-                  },
-                  "comment": "Player: Attack hit"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Player",
-                        "is_atakking",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "PlayerAttackArea",
-                            "Enemies",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Current.hp",
-                            "=",
-                            "Enemies.Current.hp - Player.current.damage"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Control.combat",
-                            "True",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Control.is_hurt",
-                            "True",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                          },
-                          "parameters": [
-                            "Player",
-                            "Animation"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "is_atakking",
-                            "False",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "EnemyAtkArea",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_attacking",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 170,
-                    "g": 13,
-                    "r": 96,
-                    "textB": 155,
-                    "textG": 155,
-                    "textR": 155
-                  },
-                  "comment": "Enemy: Attack hit"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "Player",
-                        "EnemyAtkArea",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Control.cooldown_atk",
-                            "<=",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Current.hp",
-                            ">",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "PlayerBlockArea",
-                            "Enemies",
-                            "False",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Control.is_attacking",
-                            "True",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Player",
-                            "current.hp",
-                            "=",
-                            "Player.current.hp - Enemies.Current.damage"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberObjectVariable"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Control.cooldown_atk",
-                            "=",
-                            "2"
-                          ]
-                        }
-                      ],
-                      "events": [
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "is_atakking",
-                                "=",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "BooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "is_blocking",
-                                "=",
-                                ""
-                              ]
-                            }
-                          ],
-                          "actions": [
-                            {
-                              "type": {
-                                "value": "SetBooleanObjectVariable"
-                              },
-                              "parameters": [
-                                "Player",
-                                "is_hurt",
-                                "True",
-                                "2"
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 170,
-                    "g": 13,
-                    "r": 96,
-                    "textB": 155,
-                    "textG": 155,
-                    "textR": 155
-                  },
-                  "comment": "cooldown++"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "TopDownMovementBehavior::IsMoving"
-                      },
-                      "parameters": [
-                        "Player",
-                        "TopDownMovement"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Or"
-                      },
-                      "parameters": [],
-                      "subInstructions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "PlayerBlockArea",
-                            "Enemies",
-                            "False",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "PlayerAttackArea",
-                            "Enemies",
-                            "False",
-                            "",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.cooldown_atk",
-                        "=",
-                        "Enemies.Control.cooldown_atk + 1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_knocked",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_knocked",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Arreter"
-                      },
-                      "parameters": [
-                        "Enemies"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Pathfinding",
-                        "yes"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_knocked",
-                        "True",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.cooldown_knock",
-                        "=",
-                        "Enemies.Control.cooldown_knock - TimeDelta()"
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "ActivateBehavior"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "Pathfinding",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AddForceAL"
-                          },
-                          "parameters": [
-                            "Enemies",
-                            "AngleBetweenPositions(Player.X(), Player.Y(), Enemies.X(), Enemies.Y())",
-                            "1600",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_dead",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.cooldown_knock",
-                        "<=",
-                        "0"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.is_knocked",
-                        "False",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Control.cooldown_knock",
-                        "=",
-                        "1"
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -30067,6 +29305,631 @@
           "parameters": []
         },
         {
+          "colorB": 30,
+          "colorG": 0,
+          "colorR": 210,
+          "creationTime": 0,
+          "name": "Enemies fighting with the Player",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemies",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "EnemyAtkArea",
+                    "Enemies",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "colorB": 30,
+                  "colorG": 0,
+                  "colorR": 145,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Player: Attack hit",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "folded": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_atakking",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerAttackArea",
+                                "Enemies",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Current.hp",
+                                "=",
+                                "Enemies.Current.hp - Player.current.damage"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.combat",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.is_hurt",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                              },
+                              "parameters": [
+                                "Player",
+                                "Animation"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "is_atakking",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "EnemyAtkArea",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_attacking",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 30,
+                  "colorG": 0,
+                  "colorR": 145,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Enemy: Attack hit",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "Player",
+                            "EnemyAtkArea",
+                            "",
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.cooldown_atk",
+                                "<=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Current.hp",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerBlockArea",
+                                "Enemies",
+                                "False",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.is_attacking",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "current.hp",
+                                "=",
+                                "Player.current.hp - Enemies.Current.damage"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.cooldown_atk",
+                                "=",
+                                "2"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "is_atakking",
+                                    "=",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "is_blocking",
+                                    "=",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "is_hurt",
+                                    "True",
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 30,
+                  "colorG": 0,
+                  "colorR": 145,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Enemy: Knockedback + cooldown increase",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "TopDownMovementBehavior::IsMoving"
+                          },
+                          "parameters": [
+                            "Player",
+                            "TopDownMovement"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerBlockArea",
+                                "Enemies",
+                                "False",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerAttackArea",
+                                "Enemies",
+                                "False",
+                                "",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_atk",
+                            "=",
+                            "Enemies.Control.cooldown_atk + 1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_knocked",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_knocked",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Enemies"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ActivateBehavior"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Pathfinding",
+                            "yes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_knocked",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_knock",
+                            "=",
+                            "Enemies.Control.cooldown_knock - TimeDelta()"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ActivateBehavior"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Pathfinding",
+                                "no"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AddForceAL"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "AngleBetweenPositions(Player.X(), Player.Y(), Enemies.X(), Enemies.Y())",
+                                "1600",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_knock",
+                            "<=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_knocked",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.cooldown_knock",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "colorB": 30,
+              "colorG": 0,
+              "colorR": 145,
+              "creationTime": 0,
+              "name": "Player is dead :´(",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "current.hp",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Is_alive",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
           "colorB": 226,
           "colorG": 144,
           "colorR": 74,
@@ -30139,6 +30002,7 @@
           "colorG": 19,
           "colorR": 144,
           "creationTime": 0,
+          "folded": true,
           "name": "Tween Color and Damage Label",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30797,6 +30661,36 @@
                       "conditions": [
                         {
                           "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_hurt",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "AtkBat",
+                            "Animation",
+                            "=",
+                            "\"idle\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
                             "value": "AnimatableCapability::AnimatableBehavior::Name"
                           },
                           "parameters": [
@@ -30816,19 +30710,7 @@
                           ]
                         }
                       ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "AtkBat",
-                            "Animation",
-                            "=",
-                            "\"idle\""
-                          ]
-                        }
-                      ]
+                      "actions": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
@@ -30840,6 +30722,17 @@
                           "parameters": [
                             "Enemies",
                             "Control.is_attacking",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "is_hurt",
                             "True",
                             ""
                           ]
@@ -33219,6 +33112,7 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
+              "folded": true,
               "name": "Enemies Alert",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -33441,60 +33335,6 @@
                 }
               ],
               "parameters": []
-            },
-            {
-              "colorB": 254,
-              "colorG": 19,
-              "colorR": 144,
-              "creationTime": 0,
-              "disabled": true,
-              "name": "Change Tween Color",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemies",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Tween::HasFinished"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Tween",
-                        "\"HitHue\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "Tween",
-                        "\"BackHue\"",
-                        "0",
-                        "",
-                        "0",
-                        "100",
-                        "\"easeOutQuad\"",
-                        "0.2",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
             }
           ],
           "parameters": []
@@ -33506,10 +33346,11 @@
       "name": "DevTools",
       "events": [
         {
-          "colorB": 155,
-          "colorG": 155,
-          "colorR": 155,
+          "colorB": 109,
+          "colorG": 109,
+          "colorR": 109,
           "creationTime": 0,
+          "folded": true,
           "name": "LOGGING",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -33531,21 +33372,209 @@
               "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "All log events here..."
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "LOG",
+                        "30",
+                        "30",
+                        "\"Visual Effects\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Log",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
-                  "actions": []
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetStringVariable"
+                      },
+                      "parameters": [
+                        "Log",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "colorB": 78,
+                  "colorG": 78,
+                  "colorR": 78,
+                  "creationTime": 0,
+                  "name": "Set the LOG",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "LOG",
+                            "Text",
+                            "=",
+                            " \n\"Destination: \" + ToString(Enemies.Pathfinding::DestinationX()) + NewLine()+ \"NextP: \"+ ToString(Enemies.Pathfinding::NextNodeX()) + NewLine()+ \"lastP: \" + ToString(Enemies.Pathfinding::LastNodeX())"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "LOG",
+                            "Text",
+                            "=",
+                            "\"Player angle:\" + ToString(Player.TopDownMovement::Angle()) + NewLine() + \"Player orientation: \" + Player.orientation + NewLine() + NewLine() + \"Atackking: \" + Player.is_atakking + NewLine() + \"Blocking: \" + Player.is_blocking + NewLine() + NewLine() + \"> Current stats\" + NewLine() + \"HP: \" + Player.current.hp + \" / \" + Player.current.hp_max + \" [vigor:\" + Player.attributes.vigor + \"]\" + NewLine() + \"Stamina: \" + Player.current.stamina + \" / \" + Player.current.stamina_max + \" [endurance:\" + Player.attributes.endurance + \"]\" + NewLine() + \"MP: \" + Player.current.mp + \" / \" + Player.current.mp_max + \" [mind:\" + Player.attributes.mind + \"]\" + NewLine() + \"Damage: \" + Player.current.damage + \" [strength:\" + Player.attributes.strength + \"]\" + NewLine() + \"Magic: \" + Player.current.magic + \" [Intelligence:\" + Player.attributes.intelligence + \"]\" + NewLine() + \"Luck: \" + Player.current.rate + \" [luck:\" + Player.attributes.luck + \"]\" + NewLine() + \"Increase LV: \" + increase_attributes + NewLine() + NewLine() + \"Breakable Obj\" + NewLine() + \"Obj: \" + Breakable_Obj.ObjectName() + NewLine() + \"Life: \" + Breakable_Obj.life + \" / \" + Breakable_Obj.max_life + NewLine() + NewLine() + \"Enemy orientation: \" + Enemies.Control.orientation + NewLine() + \"HP: \" + Enemies.Current.hp + NewLine() + \"Timer dead: \" + Enemies.Control.cooldown_excludeObj + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Angle: \" + ToString(Enemies.TopDownMovement::Angle()) + NewLine() + \"x,y (force): (\" + ToString(Enemies.ForceX()) + \" / \" + ToString(Enemies.ForceY()) + \")\" + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + Enemies.Control.cooldown_exitCombat + NewLine() + NewLine() + \"Number of Visions: \" + ToString(SceneInstancesCount(EnemyVisionArea)) + NewLine() + \"Number of enemy: \" + ToString(SceneInstancesCount(Enemies))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Basics infos aboult the player"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "\"HP: \"+Player.current.hp+\" / \"+Player.current.hp_max+NewLine()+\n\"MP: \"+Player.current.mp+\" / \"+Player.current.mp_max+NewLine()+\n\"STA: \"+Player.current.stamina+\" / \"+Player.current.stamina_max+NewLine()+NewLine()+\n\"Is ATK: \" + Player.is_atakking + NewLine()+\n\"Is BLK: \" + Player.is_blocking + NewLine()+\n\"Is alive: \" + Player.Is_alive +NewLine()+NewLine()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "\"Enemy orientation: \" + Enemies.Control.orientation + NewLine() + \"HP: \" + Enemies.Current.hp + NewLine() + \"Timer dead: \" + Enemies.Control.cooldown_excludeObj + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Angle: \" + ToString(Enemies.TopDownMovement::Angle()) + NewLine() + \"x,y (force): (\" + ToString(Enemies.ForceX()) + \" / \" + ToString(Enemies.ForceY()) + \")\" + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + Enemies.Control.cooldown_exitCombat + NewLine() + \"---------------\" + NewLine()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Basics infos aboult all enemies in the scene"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "\"HP: \" + Enemies.Current.hp + NewLine() + \"Speed: \" + ToString(Enemies.TopDownMovement::Speed()) + \" / \" + ToString(Enemies.TopDownMovement::MaxSpeed()) + NewLine() + \"Is attack: \" + Enemies.Control.is_attacking + NewLine() + \n\"Cooldown attack: \" + ToString(round(Enemies.Control.cooldown_atk*100)/100) + NewLine() + \"Combat mode: \" + Enemies.Control.combat + NewLine() + \"Exit combat in: \" + ToString(round(Enemies.Control.cooldown_exitCombat*100)/100) + NewLine() + \n\"Knock: \" + Enemies.Control.is_knocked+NewLine()+\n\"Force: \"+ ToString(Enemies.ForceLength())+NewLine()+\n\"Knock timer: \" + ToString(Enemies.ObjectTimerElapsedTime(\"knockcooldown\"))+NewLine()\n\n+\"---------------\" + NewLine()"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 78,
+                    "g": 78,
+                    "r": 78,
+                    "textB": 248,
+                    "textG": 248,
+                    "textR": 248
+                  },
+                  "comment": "Print the log"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "LOG",
+                        "Text",
+                        "=",
+                        "Log"
+                      ]
+                    }
+                  ]
                 }
               ]
             }
