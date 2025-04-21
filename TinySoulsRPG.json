@@ -6274,12 +6274,22 @@
       "updateIfNotVisible": false,
       "variables": [
         {
+          "name": "Is_alive",
+          "type": "boolean",
+          "value": true
+        },
+        {
           "name": "is_atakking",
           "type": "boolean",
           "value": false
         },
         {
           "name": "is_blocking",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "is_hurt",
           "type": "boolean",
           "value": false
         },
@@ -6368,6 +6378,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "base",
           "type": "structure",
           "children": [
@@ -6464,16 +6475,12 @@
               "value": 0
             }
           ]
-        },
-        {
-          "name": "is_hurt",
-          "type": "boolean",
-          "value": false
         }
       ],
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown",
           "Up": "w",
@@ -6483,6 +6490,7 @@
           "Topdown": "TopDownMovement"
         },
         {
+          "isFolded": true,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 3000,
@@ -6496,6 +6504,11 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "isFolded": true,
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -21206,6 +21219,11 @@
               "value": false
             },
             {
+              "name": "is_hurt",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "name": "is_knocked",
               "type": "boolean",
               "value": false
@@ -21300,6 +21318,7 @@
       "effects": [],
       "behaviors": [
         {
+          "isFolded": true,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
@@ -21330,6 +21349,11 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "isFolded": true,
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ],
       "animations": [
@@ -25934,6 +25958,10 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     }
@@ -28897,6 +28925,17 @@
                             "True",
                             ""
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_hurt",
+                            "True",
+                            ""
+                          ]
                         }
                       ]
                     },
@@ -30088,6 +30127,341 @@
                     "Attribute_Items",
                     "=",
                     "Attribute_Items.PointY(\"Origin\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 254,
+          "colorG": 19,
+          "colorR": 144,
+          "creationTime": 0,
+          "name": "Tween Color and Damage Label",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 170,
+                "g": 13,
+                "r": 96,
+                "textB": 155,
+                "textG": 155,
+                "textR": 155
+              },
+              "comment": "Enemy: Graphical alerts for the player"
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Enemies",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Tween Color"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_hurt",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Tween",
+                        "\"HitHue\"",
+                        "0",
+                        "",
+                        "80",
+                        "50",
+                        "\"linear\"",
+                        "0.1",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Tween",
+                        "\"HitHue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Tween",
+                        "\"BackHue\"",
+                        "0",
+                        "",
+                        "0",
+                        "100",
+                        "\"easeOutQuad\"",
+                        "0.2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Damage label"
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.is_hurt",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_hurt",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 170,
+                "g": 13,
+                "r": 96,
+                "textB": 155,
+                "textG": 155,
+                "textR": 155
+              },
+              "comment": "Player: Graphical alerts for the player"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Is_alive",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Tween Color"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_hurt",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Tween",
+                        "\"HitFlash\"",
+                        "0",
+                        "",
+                        "75",
+                        "50",
+                        "\"linear\"",
+                        "0.05",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Tween",
+                        "\"HitFlash\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Tween",
+                        "\"BackFlash\"",
+                        "0",
+                        "",
+                        "0",
+                        "100",
+                        "\"easeOutQuad\"",
+                        "0.2",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 170,
+                    "g": 13,
+                    "r": 96,
+                    "textB": 155,
+                    "textG": 155,
+                    "textR": 155
+                  },
+                  "comment": "Damage label"
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_hurt",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
                   ]
                 }
               ]
@@ -33061,6 +33435,60 @@
                             "\"none\""
                           ]
                         }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "disabled": true,
+              "name": "Change Tween Color",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Tween",
+                        "\"HitHue\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectColorHSLTween2"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Tween",
+                        "\"BackHue\"",
+                        "0",
+                        "",
+                        "0",
+                        "100",
+                        "\"easeOutQuad\"",
+                        "0.2",
+                        ""
                       ]
                     }
                   ]
