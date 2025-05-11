@@ -6428,6 +6428,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
           "name": "Framed Pixel Red Fill Bar.png"
         }
+      },
+      {
+        "file": "assets/Dot Bar Blue Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Blue Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/aa81b97c3211cf1e7cd040b96f5409851e3f1141c496b064157588294f09e662_Dot Bar Blue Border.png",
+          "name": "Dot Bar Blue Border.png"
+        }
+      },
+      {
+        "file": "assets/Dot Bar Blue Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Blue Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/0f15d828199d38d229469b48c953574c22a34b8daeb8941f3eb40df01a8f7d22_Dot Bar Blue Fill Bar.png",
+          "name": "Dot Bar Blue Fill Bar.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -6471,7 +6495,6 @@
           "value": 200
         },
         {
-          "folded": true,
           "name": "attributes",
           "type": "structure",
           "children": [
@@ -6498,7 +6521,7 @@
             {
               "name": "strength",
               "type": "number",
-              "value": 1
+              "value": 1000
             },
             {
               "name": "vigor",
@@ -6583,6 +6606,11 @@
               "name": "stamina",
               "type": "number",
               "value": 100
+            },
+            {
+              "name": "xp",
+              "type": "number",
+              "value": 100
             }
           ]
         },
@@ -6638,6 +6666,37 @@
             },
             {
               "name": "xp",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "LevelUp",
+          "type": "structure",
+          "children": [
+            {
+              "name": "ASFLVUP",
+              "type": "number",
+              "value": 1.5
+            },
+            {
+              "name": "AttributePoint",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "LV",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "XPCurrent",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "XPTarget",
               "type": "number",
               "value": 0
             }
@@ -22277,11 +22336,128 @@
         "characterSize": 15,
         "color": "248;248;248"
       }
+    },
+    {
+      "assetStoreId": "98213fe7f1e2289ef501a2e0a96ed2292535e720bfa616da42cf780d99a3c6d0",
+      "name": "XPBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "BarBottomPadding": 4,
+        "EasingDuration": 0,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false,
+        "InitialValue": 8,
+        "MaxValue": 16
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 26,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Dot Bar Blue Border.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 118
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 19,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Dot Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 21
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 19,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Dot Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 21
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "2 / 3",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "2 / 3",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "XPText",
+      "type": "BBText::BBText",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "[shadow=blue]XP[/shadow] ",
+        "opacity": 255,
+        "fontSize": 25,
+        "visible": true,
+        "color": "255;255;255",
+        "fontFamily": "assets\\fonts\\Germania_One\\GermaniaOne-Regular.ttf",
+        "align": "right",
+        "verticalTextAlignment": "center"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "HUD",
+        "children": [
+          {
+            "objectName": "XPText"
+          },
+          {
+            "objectName": "XPBar"
+          }
+        ]
+      },
       {
         "folderName": "Enemies",
         "children": [
@@ -22433,6 +22609,11 @@
   "variables": [
     {
       "name": "increase_attributes",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "increase_level",
       "type": "boolean",
       "value": false
     },
@@ -27408,7 +27589,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6040838749988878,
+        "zoomFactor": 0.5653158055126322,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -27454,54 +27635,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "bat",
-          "persistentUuid": "747e5a9a-1404-4253-869c-eeeddc25d841",
-          "width": 0,
-          "x": 962,
-          "y": 107,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "bat",
-          "persistentUuid": "e0d72b9a-d0a9-49c9-9cc1-4beba59e915e",
-          "width": 0,
-          "x": 757,
-          "y": 129,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "bat",
-          "persistentUuid": "baa4e032-f856-4d5c-a3fb-200576a8dc10",
-          "width": 0,
-          "x": 960,
-          "y": 386,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "bat",
           "persistentUuid": "cc8979f0-a1ef-4155-809a-ca66c35826af",
           "width": 0,
           "x": 846,
@@ -27523,6 +27656,54 @@
           "x": 440,
           "y": 141,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "62b9513c-da2b-461a-b740-8f1f10f3efd2",
+          "width": 0,
+          "x": 637,
+          "y": 110,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "2ec2d763-42ab-46ae-8f1e-bbe1a193130d",
+          "width": 0,
+          "x": 785,
+          "y": 195,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bat",
+          "persistentUuid": "1940ed92-7610-4753-b26e-1e2996dbd21a",
+          "width": 0,
+          "x": 829,
+          "y": 228,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30462,6 +30643,7 @@
               "colorG": 2,
               "colorR": 163,
               "creationTime": 0,
+              "disabled": true,
               "name": "Player Life bar",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30691,7 +30873,6 @@
               "colorG": 0,
               "colorR": 0,
               "creationTime": 0,
-              "folded": true,
               "name": "Imports",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -30756,6 +30937,33 @@
                             "includeConfig": 0
                           },
                           "target": "Enemies"
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 0,
+                  "colorG": 0,
+                  "colorR": 0,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "HUD",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "HUD"
                         }
                       ]
                     }
@@ -30927,11 +31135,192 @@
                   "colorG": 187,
                   "colorR": 3,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Attributes management (Level Up)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "colorB": 35,
+                      "colorG": 166,
+                      "colorR": 245,
+                      "creationTime": 0,
+                      "name": "XP Boost",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "DepartScene"
+                              },
+                              "parameters": [
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "increase_level",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.XPTarget",
+                                "=",
+                                "Player.base.xp *  pow(Player.LevelUp.LV, Player.LevelUp.ASFLVUP)"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "disabled": true,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BooleanVariable"
+                              },
+                              "parameters": [
+                                "increase_level",
+                                "True",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.XPTarget",
+                                "=",
+                                "Player.base.xp *  pow(Player.LevelUp.LV, Player.LevelUp.ASFLVUP)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "increase_level",
+                                "False",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.XPCurrent",
+                                ">",
+                                "Player.LevelUp.XPTarget"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.LV",
+                                "=",
+                                "Player.LevelUp.LV + 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.AttributePoint",
+                                "=",
+                                "Player.LevelUp.AttributePoint + 1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.XPCurrent",
+                                "=",
+                                "Player.LevelUp.XPCurrent - Player.LevelUp.XPTarget"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "LevelUp.XPTarget",
+                                "=",
+                                "floor(Player.base.xp *  pow(Player.LevelUp.LV, Player.LevelUp.ASFLVUP))"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "increase_level",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "increase_level",
+                            "False",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    },
                     {
                       "colorB": 35,
                       "colorG": 166,
@@ -31617,7 +32006,6 @@
                   "colorG": 0,
                   "colorR": 210,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Enemies fighting with the Player",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -32905,7 +33293,6 @@
                   "colorG": 142,
                   "colorR": 151,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Camera",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -33303,7 +33690,7 @@
                             "Enemies",
                             "XP",
                             "=",
-                            "150"
+                            "101"
                           ]
                         }
                       ]
@@ -33480,6 +33867,24 @@
                         "Enemies",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "EnemyVisionArea",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Alert",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -33526,9 +33931,31 @@
                             "<=",
                             "0"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "False",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "LevelUp.XPCurrent",
+                            "=",
+                            "Player.LevelUp.XPCurrent + Enemies.XP"
+                          ]
+                        },
                         {
                           "type": {
                             "value": "SetBooleanObjectVariable"
@@ -33541,6 +33968,42 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 170,
+                        "g": 13,
+                        "r": 96,
+                        "textB": 155,
+                        "textG": 155,
+                        "textR": 155
+                      },
+                      "comment": "Gain XP"
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": []
                     },
                     {
                       "type": "BuiltinCommonInstructions::Comment",
@@ -33624,25 +34087,7 @@
                                 "value": "Delete"
                               },
                               "parameters": [
-                                "EnemyVisionArea",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
                                 "EnemyAtkArea",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
-                                "value": "Delete"
-                              },
-                              "parameters": [
-                                "Alert",
                                 ""
                               ]
                             },
@@ -35555,7 +36000,7 @@
                     "",
                     "LOG",
                     "30",
-                    "30",
+                    "115",
                     "\"UI\""
                   ]
                 },
@@ -35708,10 +36153,9 @@
                         "textG": 248,
                         "textR": 248
                       },
-                      "comment": "Basics infos aboult the player"
+                      "comment": "XP points"
                     },
                     {
-                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -35722,7 +36166,7 @@
                           "parameters": [
                             "Log",
                             "+",
-                            "\"PLAYER AREAS: \"+DevTools.PlayerAreas+NewLine()+\n\"ENEMIES AREAS: \" + DevTools.EnemiesAreas+ NewLine()+NewLine()"
+                            "NewLine()      + \"XP Boost\"                    + NewLine()+\n\"Current LV: \" + Player.LevelUp.LV             + NewLine()+\n\"XP Current: \" + Player.LevelUp.XPCurrent      + NewLine()+\n\"XP Target : \" + Player.LevelUp.XPTarget       + NewLine()+\n\"ATB Point : \" + Player.LevelUp.AttributePoint + NewLine()+\n\"LevelUP ? : \" + increase_level                + NewLine()+\nNewLine()"
                           ]
                         }
                       ]
@@ -35740,6 +36184,7 @@
                       "comment": "Basics infos aboult the player"
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -35816,6 +36261,7 @@
                       "comment": "Altar infos"
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -36194,6 +36640,199 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Arena",
+      "name": "HUD",
+      "events": [
+        {
+          "colorB": 6,
+          "colorG": 2,
+          "colorR": 163,
+          "creationTime": 0,
+          "name": "Player Life bar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "CopperRedBar",
+                    "0",
+                    "0",
+                    "\"UI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "CopperRedBar",
+                    "Player",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "CopperRedBar",
+                    "=",
+                    "Player.current.hp",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                  },
+                  "parameters": [
+                    "CopperRedBar",
+                    "=",
+                    "Player.current.hp_max",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "CopperRedBar",
+                    "=",
+                    "(SceneWindowWidth()-CopperRedBar.Width())/2",
+                    "=",
+                    "SceneWindowHeight()/2 + 22"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "XP Bar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "XPBar",
+                    "60",
+                    "20",
+                    "\"UI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "XPText",
+                    "20",
+                    "34",
+                    "\"UI\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "XPBar",
+                    "Resizable",
+                    "=",
+                    "300"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "XPBar",
+                    "Resizable",
+                    "=",
+                    "26"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "XPBar",
+                    "=",
+                    "Player.LevelUp.XPCurrent",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                  },
+                  "parameters": [
+                    "XPBar",
+                    "=",
+                    "Player.LevelUp.XPTarget",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ]
     }
