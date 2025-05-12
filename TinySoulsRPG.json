@@ -6452,6 +6452,17 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/0f15d828199d38d229469b48c953574c22a34b8daeb8941f3eb40df01a8f7d22_Dot Bar Blue Fill Bar.png",
           "name": "Dot Bar Blue Fill Bar.png"
         }
+      },
+      {
+        "file": "assets/PressStart2P-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -22442,6 +22453,54 @@
         "align": "right",
         "verticalTextAlignment": "center"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "LevelUP",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "timer",
+          "type": "number",
+          "value": 3
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level UP ↑",
+      "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 16,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "61;61;61",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 10,
+        "shadowColor": "246;252;116",
+        "shadowDistance": 1,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Level UP ↑",
+        "font": "44904f17cd5efc06565a08838d627234cda763a6406798f0cbbdf1cf60c676b3_PressStart2P-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 16,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -22450,6 +22509,9 @@
       {
         "folderName": "HUD",
         "children": [
+          {
+            "objectName": "LevelUP"
+          },
           {
             "objectName": "XPText"
           },
@@ -27589,7 +27651,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126322,
+        "zoomFactor": 1.134371579716097,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31163,16 +31225,6 @@
                           "actions": [
                             {
                               "type": {
-                                "value": "SetBooleanVariable"
-                              },
-                              "parameters": [
-                                "increase_level",
-                                "True",
-                                ""
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "SetNumberObjectVariable"
                               },
                               "parameters": [
@@ -31319,7 +31371,18 @@
                           ]
                         }
                       ],
-                      "actions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "increase_level",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
                     },
                     {
                       "colorB": 35,
@@ -36827,6 +36890,165 @@
                     "=",
                     "Player.LevelUp.XPTarget",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Level UP",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "increase_level",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LevelUP",
+                    "0",
+                    "0",
+                    "\"Visual Effects\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "=",
+                    "Player.CenterX()-LevelUP.Width()/2",
+                    "=",
+                    "Player.PointY(\"Head\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "increase_level",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::Text::SetFontSize"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "=",
+                    "LevelUP.FontSize() + 0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "timer",
+                    "=",
+                    "LevelUP.timer - 0.08"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::SetGradient"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "\"LINEAR_VERTICAL\"",
+                    "\"255;255;255\"",
+                    "\"255;255;255\"",
+                    "\"248;231;28\"",
+                    "\"211;196;23\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "Opacity",
+                    "=",
+                    "LevelUP.Opacity::Value() - 4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "LevelUP",
+                    "=",
+                    "LevelUP.Y()-0.15"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "LevelUP",
+                        "timer",
+                        "<",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "LevelUP",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
