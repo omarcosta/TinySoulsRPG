@@ -1,7 +1,7 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Arena",
   "gdVersion": {
-    "build": 230,
+    "build": 231,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -12788,7 +12788,7 @@
             {
               "name": "strength",
               "type": "number",
-              "value": 10000
+              "value": 1
             },
             {
               "name": "vigor",
@@ -30939,6 +30939,11 @@
               "value": 0
             },
             {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "name": "is_attacking",
               "type": "boolean",
               "value": false
@@ -31048,9 +31053,6 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -31061,23 +31063,25 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 200,
-          "rotateObject": false,
-          "smoothingMaxCellGap": 1
+          "name": "Pathfinding",
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1,
+          "type": "PathfindingBehavior::PathfindingBehavior"
         },
         {
-          "isFolded": true,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
           "deceleration": 800,
-          "ignoreDefaultControls": true,
+          "ignoreDefaultControls": false,
+          "isFolded": true,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "rotateObject": false,
+          "name": "TopDownMovement",
+          "rotateObject": true,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         },
         {
@@ -32088,6 +32092,11 @@
               "name": "cooldown_orientation",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
             },
             {
               "name": "is_attacking",
@@ -33383,60 +33392,77 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ce7301a6-ba0c-4eab-8d2b-48d68ee5c1c4",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "2e168b77-9bf4-47a9-b4d7-8011134a2da3",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "f47b8c81-f6c9-4688-a2a2-1ae50e3a8e42",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "5b10a0c7-7728-492d-a6a1-519ca3d577b5",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "f67927ce-d04b-4694-9215-8dbe6eef75e8",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0d9a2e28-05ca-4f86-8714-dcba07c77a05",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "03613f08-97e4-41d9-84d0-2489ee226b75",
               "type": "number",
               "value": 0
             },
             {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "name": "is_attacking",
+              "persistentUuid": "3a0df4fb-bc15-4603-b991-7e1b2a504227",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "b9228db4-274f-4774-8519-c262cc39bc8b",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "636fd0ee-a152-454b-bae6-8863da62116f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "8523d1ba-6e22-49d4-a3d8-1ae6c1e3ab68",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "714bc1d3-747e-43d3-8738-769115e09542",
               "type": "number",
               "value": 0
             }
@@ -34027,60 +34053,77 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ce7301a6-ba0c-4eab-8d2b-48d68ee5c1c4",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "2e168b77-9bf4-47a9-b4d7-8011134a2da3",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "f47b8c81-f6c9-4688-a2a2-1ae50e3a8e42",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "5b10a0c7-7728-492d-a6a1-519ca3d577b5",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "f67927ce-d04b-4694-9215-8dbe6eef75e8",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0d9a2e28-05ca-4f86-8714-dcba07c77a05",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "03613f08-97e4-41d9-84d0-2489ee226b75",
               "type": "number",
               "value": 0
             },
             {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "name": "is_attacking",
+              "persistentUuid": "3a0df4fb-bc15-4603-b991-7e1b2a504227",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "b9228db4-274f-4774-8519-c262cc39bc8b",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "636fd0ee-a152-454b-bae6-8863da62116f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "8523d1ba-6e22-49d4-a3d8-1ae6c1e3ab68",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "714bc1d3-747e-43d3-8738-769115e09542",
               "type": "number",
               "value": 0
             }
@@ -34703,6 +34746,11 @@
               "name": "cooldown_orientation",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
             },
             {
               "name": "is_attacking",
@@ -37340,6 +37388,668 @@
         "characterSize": 72,
         "color": "253;253;253"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GameOverLabel",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "Minutes",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Hours",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Seconds",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "FormattedHours",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FormattedMinutes",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "FormattedSeconds",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game Over",
+      "font": "assets\\fonts\\Germania_One\\GermaniaOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 98,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 5,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 5,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 3,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game Over",
+        "font": "assets\\fonts\\Germania_One\\GermaniaOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 98,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GameOverInfos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "timer",
+          "type": "number",
+          "value": 3
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Round Timer: 59:59\nBoss defeat: No\nEnemys defeat: 999\n\n\n__ Press SPACE for play again ___",
+      "font": "assets\\fonts\\Germania_One\\GermaniaOne-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 36,
+      "color": {
+        "b": 253,
+        "g": 253,
+        "r": 253
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "48;48;48",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 3,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 2,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Round Timer: 59:59\nBoss defeat: No\nEnemys defeat: 999\n\n\n__ Press SPACE for play again ___",
+        "font": "assets\\fonts\\Germania_One\\GermaniaOne-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 36,
+        "color": "253;253;253"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Bat2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Type",
+          "type": "string",
+          "value": "flying"
+        },
+        {
+          "name": "Control",
+          "type": "structure",
+          "children": [
+            {
+              "name": "combat",
+              "type": "boolean",
+              "value": true
+            },
+            {
+              "name": "cooldown_atk",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "cooldown_excludeObj",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "cooldown_exitCombat",
+              "type": "number",
+              "value": 5
+            },
+            {
+              "name": "cooldown_knock",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "name": "cooldown_orientation",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "has_attackaArea",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "is_attacking",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "is_dead",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "is_hurt",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "is_knocked",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "orientation",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Current",
+          "type": "structure",
+          "children": [
+            {
+              "name": "damage",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "hp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "max_hp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "max_mp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "max_stamina",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "mp",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "speed",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "stamina",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Areas",
+          "type": "structure",
+          "children": [
+            {
+              "name": "combat_height",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "combat_widht",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vision_height",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "vision_widht",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "XP",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "fly",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Fly\\Bat_Fly_0.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 26,
+                      "y": 15
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.5,
+                    "y": 38
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.5,
+                        "y": 31
+                      },
+                      {
+                        "x": 8,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      {
+                        "x": 27,
+                        "y": 47
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Fly\\Bat_Fly_1.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 26,
+                      "y": 15
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.5,
+                    "y": 38
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.5,
+                        "y": 31
+                      },
+                      {
+                        "x": 8,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      {
+                        "x": 27,
+                        "y": 47
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Fly\\Bat_Fly_2.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 26,
+                      "y": 15
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.5,
+                    "y": 38
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.5,
+                        "y": 31
+                      },
+                      {
+                        "x": 8,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      {
+                        "x": 27,
+                        "y": 47
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Fly\\Bat_Fly_3.png",
+                  "points": [
+                    {
+                      "name": "Head",
+                      "x": 26,
+                      "y": 15
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.5,
+                    "y": 38
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 6.5,
+                        "y": 31
+                      },
+                      {
+                        "x": 8,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 2.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 6.5
+                      },
+                      {
+                        "x": 40.5,
+                        "y": 44
+                      },
+                      {
+                        "x": 27,
+                        "y": 47
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "hit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Hit\\Bat_Hit_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 28.5,
+                    "y": 38.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 25,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 39.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Hit\\Bat_Hit_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 28.5,
+                    "y": 38.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 16.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 27
+                      },
+                      {
+                        "x": 25,
+                        "y": 39.5
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 39.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\third-party\\Enemys\\Bat Pixel art (FREE)\\Dead\\Bat_Dead_0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 25,
+                    "y": 39.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21.5,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 24.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 28
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 28
+                      },
+                      {
+                        "x": 32,
+                        "y": 33
+                      },
+                      {
+                        "x": 28,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 22.5,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -37358,10 +38068,16 @@
             "objectName": "LvHud"
           },
           {
+            "objectName": "GameOverInfos"
+          },
+          {
             "objectName": "Cronometro"
           },
           {
             "objectName": "PauseTxt"
+          },
+          {
+            "objectName": "GameOverLabel"
           },
           {
             "objectName": "BossName"
@@ -37393,6 +38109,9 @@
           },
           {
             "objectName": "Bat"
+          },
+          {
+            "objectName": "Bat2"
           },
           {
             "objectName": "Slime"
@@ -37572,6 +38291,7 @@
       "value": ""
     },
     {
+      "folded": true,
       "name": "DevTools",
       "type": "structure",
       "children": [
@@ -37602,6 +38322,11 @@
           "value": false
         }
       ]
+    },
+    {
+      "name": "EnemiesDefeated",
+      "type": "number",
+      "value": 0
     },
     {
       "folded": true,
@@ -42542,7 +43267,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3111974942445208,
+        "zoomFactor": 0.43357743047023894,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -42587,76 +43312,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Bat",
-          "persistentUuid": "cc8979f0-a1ef-4155-809a-ca66c35826af",
-          "width": 0,
-          "x": 846,
-          "y": 305,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "6b3f5ff4-942c-46d8-8339-bc1f444f58ff",
-          "width": 0,
-          "x": 384,
-          "y": 232,
-          "zOrder": 25,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "d5c55be2-2f28-4b9a-a0f9-8c02e034be82",
-          "width": 0,
-          "x": 558,
-          "y": 214,
-          "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "1d1a68c8-74b3-4f6c-85e9-18eeceecab9b",
-          "width": 0,
-          "x": 669,
-          "y": 171,
-          "zOrder": 27,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "SlimeBoss",
           "persistentUuid": "f695c7c8-d5b1-407f-b7aa-dcf93420ac71",
           "width": 0,
           "x": 770,
           "y": 146,
           "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bat2",
+          "persistentUuid": "09748efa-274d-4cac-8965-31591715b3b1",
+          "width": 0,
+          "x": 941,
+          "y": 352,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42722,6 +43399,48 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -42729,6 +43448,9 @@
         "children": [
           {
             "objectName": "BG_Back_30"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -42765,6 +43487,293 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Spawn enemeis",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpawnTimer\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpawnTimer\"",
+                        ">=",
+                        "SpawnEnemy"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SceneInstancesCount"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "<=",
+                        "LimitEnemys"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "GameOver",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "EnemyID",
+                        "=",
+                        "RandomInRange(1,3)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SpawnXDir",
+                        "=",
+                        "(Random(1) * 2) - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SpawnYDir",
+                        "=",
+                        "(Random(1) * 2) - 1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SpawnX",
+                        "=",
+                        "(Player.X() + SceneWindowWidth()*0.8 + 30) * SpawnXDir "
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "SpawnY",
+                        "=",
+                        "(Player.Y() + SceneWindowHeight()*0.8 + 30) * SpawnYDir "
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpawnTimer\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "Text",
+                        "=",
+                        "\"Spw Dir X: \" + SpawnXDir +NewLine()+\n\"Spw Dir y: \" + SpawnYDir"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyID",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "SlimeVeloz",
+                            "SpawnX",
+                            "SpawnY",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyID",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "SlimeResistente",
+                            "SpawnX",
+                            "SpawnY",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyID",
+                            "=",
+                            "3"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "Slime",
+                            "SpawnX",
+                            "SpawnY",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": []
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "EnemyID",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "LimitEnemys",
+                      "type": "number",
+                      "value": 20
+                    },
+                    {
+                      "name": "SpawnY",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "SpawnXDir",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "SpawnYDir",
+                      "type": "number",
+                      "value": 0
+                    },
+                    {
+                      "name": "SpawnEnemy",
+                      "type": "number",
+                      "value": 3
+                    },
+                    {
+                      "name": "SpawnX",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -42968,6 +43977,39 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Pause",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "GameOver",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -48974,7 +50016,14 @@
                     {
                       "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
                       "actions": []
                     },
                     {
@@ -48982,9 +50031,25 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": []
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "=",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -49128,7 +50193,7 @@
                             "Slime",
                             "Areas.combat_height",
                             "=",
-                            "Enemies.Height()*1.3"
+                            "64"
                           ]
                         },
                         {
@@ -49139,7 +50204,7 @@
                             "Slime",
                             "Areas.combat_widht",
                             "=",
-                            "Enemies.Width()*1.3"
+                            "64"
                           ]
                         },
                         {
@@ -49289,9 +50354,25 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": []
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "=",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -49325,7 +50406,7 @@
                             "SlimeResistente",
                             "Current.max_hp",
                             "=",
-                            "500"
+                            "100"
                           ]
                         },
                         {
@@ -49435,7 +50516,7 @@
                             "SlimeResistente",
                             "Areas.combat_height",
                             "=",
-                            "Enemies.Height()*1.1"
+                            "75"
                           ]
                         },
                         {
@@ -49446,7 +50527,7 @@
                             "SlimeResistente",
                             "Areas.combat_widht",
                             "=",
-                            "Enemies.Width()*1.1"
+                            "75"
                           ]
                         },
                         {
@@ -49596,9 +50677,25 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": []
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "=",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -49742,7 +50839,7 @@
                             "SlimeVeloz",
                             "Areas.combat_height",
                             "=",
-                            "Enemies.Height()*1.2"
+                            "48"
                           ]
                         },
                         {
@@ -49753,7 +50850,7 @@
                             "SlimeVeloz",
                             "Areas.combat_widht",
                             "=",
-                            "Enemies.Width()*1.2"
+                            "48"
                           ]
                         },
                         {
@@ -49903,9 +51000,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "NumberObjectVariable"
                           },
-                          "parameters": []
+                          "parameters": [
+                            "Enemies",
+                            "Current.hp",
+                            "=",
+                            "0"
+                          ]
                         }
                       ],
                       "actions": [
@@ -49939,7 +51041,7 @@
                             "SlimeBoss",
                             "Current.max_hp",
                             "=",
-                            "35000"
+                            "3500"
                           ]
                         },
                         {
@@ -50094,163 +51196,6 @@
                             "XP",
                             "=",
                             "35000"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "SceneInstancesCount"
-                          },
-                          "parameters": [
-                            "",
-                            "SlimeBoss",
-                            ">",
-                            "0"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "BossLife",
-                            "0",
-                            "0",
-                            "\"UI\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "Create"
-                          },
-                          "parameters": [
-                            "",
-                            "BossName",
-                            "0",
-                            "0",
-                            "\"UI\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "LinkedObjects::LinkObjects"
-                          },
-                          "parameters": [
-                            "",
-                            "SlimeBoss",
-                            "BossLife"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetWidth"
-                          },
-                          "parameters": [
-                            "BossLife",
-                            "Resizable",
-                            "=",
-                            "600"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetHeight"
-                          },
-                          "parameters": [
-                            "BossLife",
-                            "Resizable",
-                            "=",
-                            "26"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
-                          },
-                          "parameters": [
-                            "BossLife",
-                            "=",
-                            "SlimeBoss.Current.max_hp",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "MettreXY"
-                          },
-                          "parameters": [
-                            "BossLife",
-                            "=",
-                            "SceneWindowWidth()-30-BossLife.Width()",
-                            "=",
-                            "20"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "MettreXY"
-                          },
-                          "parameters": [
-                            "BossName",
-                            "=",
-                            "SceneWindowWidth()-32-BossName.Width()",
-                            "=",
-                            "58"
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "SceneInstancesCount"
-                          },
-                          "parameters": [
-                            "",
-                            "SlimeBoss",
-                            ">",
-                            "0"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "LinkedObjects::PickObjectsLinkedTo"
-                          },
-                          "parameters": [
-                            "",
-                            "BossLife",
-                            "SlimeBoss",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-                          },
-                          "parameters": [
-                            "BossLife",
-                            "=",
-                            "SlimeBoss.Current.hp",
-                            ""
                           ]
                         }
                       ]
@@ -51064,6 +52009,16 @@
                                 "Enemies",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "EnemiesDefeated",
+                                "+",
+                                "1"
+                              ]
                             }
                           ]
                         }
@@ -51519,6 +52474,121 @@
                       ]
                     }
                   ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "disabled": true,
+              "name": "Movement - Combat mode",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "GameOver",
+                            "=",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Enemies",
+                            "50",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceVersPos"
+                          },
+                          "parameters": [
+                            "Bat2",
+                            "Player.PointX(\"Center\")",
+                            "Player.PointY(\"Center\")",
+                            "92",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Enemies",
+                            "50",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AddForceXY"
+                          },
+                          "parameters": [
+                            "Bat2",
+                            "Bat2.ForceX()*-1",
+                            "Bat2.ForceY()*-1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Arreter"
+                          },
+                          "parameters": [
+                            "Bat2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [],
+                  "actions": []
                 }
               ],
               "parameters": []
@@ -52378,9 +53448,14 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "BooleanObjectVariable"
                           },
-                          "parameters": []
+                          "parameters": [
+                            "Enemies",
+                            "Control.has_attackaArea",
+                            "=",
+                            ""
+                          ]
                         }
                       ],
                       "actions": [
@@ -52426,6 +53501,17 @@
                             "",
                             "Enemies",
                             "EnemyAtkArea"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetBooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.has_attackaArea",
+                            "True",
+                            ""
                           ]
                         }
                       ]
@@ -53255,6 +54341,7 @@
                       "comment": "Game timer"
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -53266,6 +54353,34 @@
                             "Log",
                             "+",
                             "NewLine()+NewLine()+\n\"Timer seconds: \" + Cronometro.Seconds +NewLine()+\n\"Timer minutes: \" + Cronometro.Minutes +NewLine()+\n\"Timer hours  : \" + Cronometro.Hours   +NewLine()+\n\"Timer at log : \" + Cronometro.Hours   +\n                    Cronometro.Minutes +\n                    Cronometro.Seconds"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Enemies in scene"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "NewLine()+\n\"Enemys: \" + ToString(SceneInstancesCount(Enemies))"
                           ]
                         }
                       ]
@@ -53493,9 +54608,33 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": []
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemyAtkArea",
+                                "Opacity",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemyVisionArea",
+                                "Opacity",
+                                ">",
+                                "0"
+                              ]
+                            }
+                          ]
                         }
                       ],
                       "actions": [
@@ -53569,9 +54708,33 @@
                       "conditions": [
                         {
                           "type": {
-                            "value": "BuiltinCommonInstructions::Once"
+                            "value": "BuiltinCommonInstructions::Or"
                           },
-                          "parameters": []
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemyAtkArea",
+                                "Opacity",
+                                "<",
+                                "255"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemyVisionArea",
+                                "Opacity",
+                                "<",
+                                "255"
+                              ]
+                            }
+                          ]
                         }
                       ],
                       "actions": [
@@ -54216,7 +55379,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Pause event",
+          "name": "Pause layer event",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -54255,16 +55418,6 @@
                     "0",
                     "0",
                     "\"Pause\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "BG_Back_50",
-                    "=",
-                    "0"
                   ]
                 },
                 {
@@ -54363,6 +55516,179 @@
                   "parameters": [
                     "",
                     "\"Pause\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Game Over layer event",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BG_Back_50",
+                    "0",
+                    "0",
+                    "\"GameOver\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "GameOverLabel",
+                    "0",
+                    "0",
+                    "\"GameOver\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "GameOverInfos",
+                    "0",
+                    "0",
+                    "\"GameOver\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BG_Back_50",
+                    "Resizable",
+                    "=",
+                    "SceneWindowWidth()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                  },
+                  "parameters": [
+                    "BG_Back_50",
+                    "Resizable",
+                    "=",
+                    "SceneWindowHeight()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "GameOverLabel",
+                    "=",
+                    "SceneWindowWidth()/2 -GameOverLabel.Width()/2",
+                    "=",
+                    "175"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "GameOverInfos",
+                    "=",
+                    "SceneWindowWidth()/2 - GameOverInfos.Width()/2",
+                    "=",
+                    "SceneWindowHeight() -GameOverLabel.Height() - (GameOverInfos.Height()/2)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "GameOver",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GameOver\""
                   ]
                 }
               ]
