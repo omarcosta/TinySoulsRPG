@@ -13356,7 +13356,7 @@
             {
               "name": "strength",
               "type": "number",
-              "value": 9999999999
+              "value": 10
             },
             {
               "name": "vigor",
@@ -31474,65 +31474,83 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "has_lifeBar",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -32643,65 +32661,83 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "has_lifeBar",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -32826,6 +32862,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -32872,6 +32913,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -32918,6 +32964,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -32964,6 +33015,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33022,6 +33078,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33068,6 +33129,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33114,6 +33180,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33160,6 +33231,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33218,6 +33294,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -33955,65 +34036,83 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "has_lifeBar",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -34139,6 +34238,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34185,6 +34289,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34231,6 +34340,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34277,6 +34391,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34335,6 +34454,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34381,6 +34505,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34427,6 +34556,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34473,6 +34607,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34532,6 +34671,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34586,65 +34730,83 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "has_lifeBar",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -34771,6 +34933,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34817,6 +34984,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34863,6 +35035,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34909,6 +35086,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -34967,6 +35149,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35013,6 +35200,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35059,6 +35251,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35105,6 +35302,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35151,6 +35353,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35210,6 +35417,11 @@
                       "name": "Head",
                       "x": 32,
                       "y": 36
+                    },
+                    {
+                      "name": "Life",
+                      "x": 32,
+                      "y": 24
                     }
                   ],
                   "originPoint": {
@@ -35264,65 +35476,83 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
+              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "has_lifeBar",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -38495,6 +38725,100 @@
           }
         }
       }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "EnemiesLife",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variant": "",
+      "variables": [
+        {
+          "name": "ChangeWidth",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 16,
+        "InitialValue": 8,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "rightMargin": 11,
+          "texture": "assets\\images\\HUD\\Copper Bar Border.png",
+          "tiled": false,
+          "topMargin": 6,
+          "width": 96
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 8,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "assets\\images\\HUD\\Life Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 3,
+          "height": 8,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "assets\\images\\HUD\\Life Bar.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "8 / 16",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 8,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "8 / 16",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 8,
+            "color": "255;255;255"
+          }
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -38504,58 +38828,71 @@
         "folderName": "HUD",
         "children": [
           {
-            "objectName": "PlayerLife"
+            "folderName": "Texts",
+            "children": [
+              {
+                "objectName": "XPText"
+              },
+              {
+                "objectName": "BossName"
+              },
+              {
+                "objectName": "StageWinnerLabel"
+              },
+              {
+                "objectName": "GameOverLabel"
+              },
+              {
+                "objectName": "PauseTxt"
+              },
+              {
+                "objectName": "DefeatedLabel"
+              },
+              {
+                "objectName": "Cronometro"
+              },
+              {
+                "objectName": "Missions"
+              },
+              {
+                "objectName": "StageResult"
+              },
+              {
+                "objectName": "LvHud"
+              },
+              {
+                "objectName": "LevelUP"
+              }
+            ]
           },
           {
-            "objectName": "PlayerXP"
-          },
-          {
-            "objectName": "PlayerMagic"
-          },
-          {
-            "objectName": "PlayerStamina"
+            "folderName": "Bars",
+            "children": [
+              {
+                "objectName": "XPBar"
+              },
+              {
+                "objectName": "BossLife"
+              },
+              {
+                "objectName": "PlayerStamina"
+              },
+              {
+                "objectName": "PlayerMagic"
+              },
+              {
+                "objectName": "EnemiesLife"
+              },
+              {
+                "objectName": "PlayerXP"
+              },
+              {
+                "objectName": "PlayerLife"
+              }
+            ]
           },
           {
             "objectName": "BG_Back_50"
-          },
-          {
-            "objectName": "LevelUP"
-          },
-          {
-            "objectName": "LvHud"
-          },
-          {
-            "objectName": "StageResult"
-          },
-          {
-            "objectName": "Missions"
-          },
-          {
-            "objectName": "Cronometro"
-          },
-          {
-            "objectName": "DefeatedLabel"
-          },
-          {
-            "objectName": "PauseTxt"
-          },
-          {
-            "objectName": "GameOverLabel"
-          },
-          {
-            "objectName": "StageWinnerLabel"
-          },
-          {
-            "objectName": "BossName"
-          },
-          {
-            "objectName": "XPText"
-          },
-          {
-            "objectName": "BossLife"
-          },
-          {
-            "objectName": "XPBar"
           }
         ]
       },
@@ -43745,7 +44082,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245139974,
+        "zoomFactor": 0.9610368693714771,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43773,12 +44110,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "SlimeBoss",
-          "persistentUuid": "f695c7c8-d5b1-407f-b7aa-dcf93420ac71",
+          "name": "Slime",
+          "persistentUuid": "4f39b15a-8555-4e14-b9ab-c1f8d83d55bc",
           "width": 0,
-          "x": 770,
-          "y": 146,
-          "zOrder": 28,
+          "x": 902,
+          "y": 305,
+          "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -53010,6 +53347,17 @@
                         "Enemies",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemiesLife",
+                        "Enemies",
+                        ""
+                      ]
                     }
                   ],
                   "events": [
@@ -53264,6 +53612,15 @@
                               },
                               "parameters": [
                                 "EnemyAtkArea",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "EnemiesLife",
                                 ""
                               ]
                             },
@@ -53985,7 +54342,6 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
-              "folded": true,
               "name": "Animations management",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -54691,7 +55047,6 @@
               "colorG": 19,
               "colorR": 144,
               "creationTime": 0,
-              "folded": true,
               "name": "Enemies combat area",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -55157,6 +55512,362 @@
                 }
               ],
               "parameters": []
+            },
+            {
+              "colorB": 254,
+              "colorG": 19,
+              "colorR": 144,
+              "creationTime": 0,
+              "name": "Enemies life bar",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.has_lifeBar",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemiesLife",
+                        "Enemies.X()",
+                        "Enemies.Y()",
+                        "\"Visual Effects\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                      },
+                      "parameters": [
+                        "EnemiesLife",
+                        "Resizable",
+                        "=",
+                        "50"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResizableCapability::ResizableBehavior::SetHeight"
+                      },
+                      "parameters": [
+                        "EnemiesLife",
+                        "Resizable",
+                        "=",
+                        "12"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                      },
+                      "parameters": [
+                        "EnemiesLife",
+                        "=",
+                        "Enemies.Current.max_hp",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Enemies",
+                        "EnemiesLife"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "Control.has_lifeBar",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "EnemiesLife",
+                        "Opacity",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Enemies",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "EnemiesLife",
+                        "Enemies",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.combat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetCenter"
+                          },
+                          "parameters": [
+                            "EnemiesLife",
+                            "=",
+                            "Enemies.PointX(\"Life\")",
+                            "=",
+                            "Enemies.PointY(\"Life\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                          },
+                          "parameters": [
+                            "EnemiesLife",
+                            "=",
+                            "Enemies.Current.hp",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "=",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Current.hp",
+                                ">",
+                                "10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerAttackArea",
+                                "Enemies",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "EnemiesLife",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ResetObjectTimer"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "\"ShowLifeBar\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CompareObjectTimer"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "\"ShowLifeBar\"",
+                                ">=",
+                                "2"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "PlayerAttackArea",
+                                "Enemies",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemiesLife",
+                                "Opacity",
+                                ">",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "EnemiesLife",
+                                "Opacity",
+                                "-",
+                                "25"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::Value"
+                              },
+                              "parameters": [
+                                "EnemiesLife",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "RemoveObjectTimer"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "\"ShowLifeBar\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "Control.is_dead",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "OpacityCapability::OpacityBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "EnemiesLife",
+                            "Opacity",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "RemoveObjectTimer"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "\"ShowLifeBar\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
             }
           ],
           "parameters": []
@@ -55495,6 +56206,7 @@
                       "comment": "XP points"
                     },
                     {
+                      "disabled": true,
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [],
                       "actions": [
@@ -55641,6 +56353,34 @@
                             "Log",
                             "+",
                             "NewLine()+NewLine()+\n\"Timer seconds: \" + Cronometro.Seconds +NewLine()+\n\"Timer minutes: \" + Cronometro.Minutes +NewLine()+\n\"Timer hours  : \" + Cronometro.Hours   +NewLine()+\n\"Timer at log : \" + Cronometro.Hours   +\n                    Cronometro.Minutes +\n                    Cronometro.Seconds"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Enemies Life Bar "
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "NewLine()+\n\"LifeBar Opacity: \"+ToString(Enemies.Opacity::Value())+NewLine()+\n\"Is hurt: \" + Enemies.Control.is_hurt+NewLine()+NewLine()"
                           ]
                         }
                       ]
