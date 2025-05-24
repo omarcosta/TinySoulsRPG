@@ -32671,48 +32671,40 @@
         },
         {
           "name": "Control",
-          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
-              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
-              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
-              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
-              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
-              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
-              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
-              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
               "type": "boolean",
               "value": false
             },
@@ -32723,31 +32715,26 @@
             },
             {
               "name": "is_attacking",
-              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
-              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
-              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
-              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
-              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -32834,21 +32821,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "viewpoint": "TopDown"
-        },
         {
           "isFolded": true,
           "name": "Tween",
@@ -34046,48 +34018,40 @@
         },
         {
           "name": "Control",
-          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
-              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
-              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
-              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
-              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
-              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
-              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
-              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
               "type": "boolean",
               "value": false
             },
@@ -34098,31 +34062,26 @@
             },
             {
               "name": "is_attacking",
-              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
-              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
-              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
-              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
-              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -34209,22 +34168,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "isFolded": true,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": true,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        },
         {
           "isFolded": true,
           "name": "Tween",
@@ -34740,48 +34683,40 @@
         },
         {
           "name": "Control",
-          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
-              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
-              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
-              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
-              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
-              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
-              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
-              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
               "type": "boolean",
               "value": false
             },
@@ -34792,31 +34727,26 @@
             },
             {
               "name": "is_attacking",
-              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
-              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
-              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
-              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
-              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -34903,22 +34833,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "isFolded": true,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": true,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        },
         {
           "isFolded": true,
           "name": "Tween",
@@ -35486,48 +35400,40 @@
         },
         {
           "name": "Control",
-          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
           "type": "structure",
           "children": [
             {
               "name": "combat",
-              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
-              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
-              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
-              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
-              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
-              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
-              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
               "type": "boolean",
               "value": false
             },
@@ -35538,31 +35444,26 @@
             },
             {
               "name": "is_attacking",
-              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
-              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
-              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
-              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
-              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
               "type": "number",
               "value": 0
             }
@@ -35649,22 +35550,6 @@
       ],
       "effects": [],
       "behaviors": [
-        {
-          "isFolded": true,
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": true,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
-        },
         {
           "isFolded": true,
           "name": "Tween",
@@ -44191,7 +44076,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9610368693714771,
+        "zoomFactor": 1.0269425874981126,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -48560,7 +48445,6 @@
               "colorG": 0,
               "colorR": 0,
               "creationTime": 0,
-              "folded": true,
               "name": "Imports (Start)",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -51472,6 +51356,7 @@
               "colorG": 135,
               "colorR": 0,
               "creationTime": 0,
+              "folded": true,
               "name": "Slime",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -51558,6 +51443,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Slime",
                   "conditions": [],
@@ -52536,6 +52422,7 @@
                   ]
                 },
                 {
+                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "SlimeBoss",
                   "conditions": [],
@@ -52945,6 +52832,7 @@
               "colorR": 0,
               "creationTime": 0,
               "disabled": true,
+              "folded": true,
               "name": "Flying",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -54486,16 +54374,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "TopDownMovementBehavior::IgnoreDefaultControls"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "TopDownMovement",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
                       },
                       "parameters": [
@@ -54503,6 +54381,23 @@
                         "Animation",
                         "=",
                         "\"dead\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+                      },
+                      "parameters": [
+                        "Enemies",
+                        "",
+                        "yes"
                       ]
                     }
                   ]
@@ -54634,17 +54529,6 @@
                           "subInstructions": [
                             {
                               "type": {
-                                "value": "TopDownMovementBehavior::XVelocity"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "TopDownMovement",
-                                ">",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "Vitesse"
                               },
                               "parameters": [
@@ -54680,17 +54564,6 @@
                           "subInstructions": [
                             {
                               "type": {
-                                "value": "TopDownMovementBehavior::XVelocity"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "TopDownMovement",
-                                "<",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "Vitesse"
                               },
                               "parameters": [
@@ -54714,6 +54587,35 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::XVelocity"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::XVelocity"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": []
                     }
                   ]
                 },
@@ -54746,17 +54648,6 @@
                           "subInstructions": [
                             {
                               "type": {
-                                "value": "TopDownMovementBehavior::XVelocity"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "TopDownMovement",
-                                ">",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "Vitesse"
                               },
                               "parameters": [
@@ -54792,17 +54683,6 @@
                           "subInstructions": [
                             {
                               "type": {
-                                "value": "TopDownMovementBehavior::XVelocity"
-                              },
-                              "parameters": [
-                                "Enemies",
-                                "TopDownMovement",
-                                "<",
-                                "0"
-                              ]
-                            },
-                            {
-                              "type": {
                                 "value": "Vitesse"
                               },
                               "parameters": [
@@ -54826,6 +54706,35 @@
                           ]
                         }
                       ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::XVelocity"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TopDownMovementBehavior::XVelocity"
+                          },
+                          "parameters": [
+                            "Enemies",
+                            "TopDownMovement",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": []
                     }
                   ]
                 }
