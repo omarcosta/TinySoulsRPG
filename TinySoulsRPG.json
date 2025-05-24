@@ -13287,6 +13287,16 @@
         "name": "assets\\images\\Enemies\\SlimeResistente\\dead49.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/sounds/Musics/MainTheme.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\Musics\\MainTheme.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -42838,7 +42848,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.787629010167376,
+        "zoomFactor": 0.7619362677197604,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -43521,6 +43531,48 @@
             "characterSize": 40,
             "color": "240;240;240"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "NewText",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "-1",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "-1",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -43540,6 +43592,9 @@
           },
           {
             "objectName": "LabelPressStart"
+          },
+          {
+            "objectName": "NewText"
           }
         ]
       },
@@ -43733,20 +43788,65 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
               "actions": [
                 {
                   "type": {
-                    "value": "PlaySound"
+                    "value": "PlayMusicCanal"
                   },
                   "parameters": [
                     "",
-                    "assets\\third-party\\Sounds\\Pixel Music Pack\\StartScreen.ogg",
+                    "assets\\sounds\\Musics\\MainTheme.ogg",
+                    "1",
                     "yes",
-                    "100",
+                    "1",
                     "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MusicCanalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "<",
+                    "100"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "+",
+                    "0.2"
                   ]
                 }
               ]
@@ -43921,28 +44021,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Or"
+                    "value": "AnyKeyPressed"
                   },
-                  "parameters": [],
-                  "subInstructions": [
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Return\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "KeyFromTextPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Space\""
-                      ]
-                    }
+                  "parameters": [
+                    ""
                   ]
                 },
                 {
@@ -43967,6 +44049,33 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "NewText",
+                "=",
+                "100"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "NewText",
+                "Text",
+                "=",
+                "ToString(MusicChannelVolume(1))"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
