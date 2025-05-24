@@ -13297,6 +13297,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sounds/Sounds Effects/som-de-espada.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sounds\\Sounds Effects\\som-de-espada.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -39074,6 +39084,48 @@
       "name": "RunTime",
       "type": "string",
       "value": ""
+    },
+    {
+      "name": "Audio",
+      "type": "structure",
+      "children": [
+        {
+          "name": "Channels",
+          "type": "structure",
+          "children": [
+            {
+              "name": "1_Background",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "2_Effects",
+              "type": "number",
+              "value": 20
+            },
+            {
+              "name": "3_Player",
+              "type": "number",
+              "value": 50
+            },
+            {
+              "name": "4_Enemies",
+              "type": "number",
+              "value": 30
+            }
+          ]
+        },
+        {
+          "name": "Mute",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Volume",
+          "type": "number",
+          "value": 100
+        }
+      ]
     }
   ],
   "layouts": [
@@ -51329,6 +51381,53 @@
                     }
                   ],
                   "parameters": []
+                },
+                {
+                  "colorB": 0,
+                  "colorG": 0,
+                  "colorR": 0,
+                  "creationTime": 0,
+                  "name": "Audio Effects",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "Audio.Mute",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Audio.Volume",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Link",
+                          "include": {
+                            "includeConfig": 0
+                          },
+                          "target": "SoundsEffects"
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ],
               "parameters": []
@@ -59300,6 +59399,124 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "Arena",
+      "name": "SoundsEffects",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Scene Sounds",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\sounds\\Musics\\MainTheme.ogg",
+                    "1",
+                    "yes",
+                    "Audio.Volume * Audio.Channels.1_Background / 100",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Player Sounds effects ",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Attack",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Is_alive",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "is_atakking",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "assets\\sounds\\Sounds Effects\\som-de-espada.ogg",
+                        "3",
+                        "",
+                        "Audio.Volume * Audio.Channels.3_Player / 100",
+                        "1.5"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
         }
       ]
     }
