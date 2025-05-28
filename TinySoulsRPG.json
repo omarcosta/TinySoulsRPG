@@ -15487,6 +15487,46 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/images/objects/assets_images_objects_Rock.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\objects\\assets_images_objects_Rock.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/objects/assets_images_objects_Rock2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\objects\\assets_images_objects_Rock2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/objects/assets_images_objects_Rock3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\objects\\assets_images_objects_Rock3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/objects/assets_images_objects_Rock4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\objects\\assets_images_objects_Rock4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/images/objects/assets_images_objects_Rock5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\images\\objects\\assets_images_objects_Rock5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -46358,7 +46398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2467258695741116,
+        "zoomFactor": 0.2022070730360588,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -47538,22 +47578,6 @@
           "x": 679,
           "y": 1320,
           "zOrder": 73,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "ff539100-3eac-4ced-afc0-97682da87587",
-          "width": 0,
-          "x": 1033,
-          "y": 2406,
-          "zOrder": 74,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49088,24 +49112,17 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "assets\\images\\objects\\Rock",
+              "name": "assets_images_objects_Rock",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\images\\objects\\Rock",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "image": "assets\\images\\objects\\assets_images_objects_Rock.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -49140,14 +49157,8 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\images\\objects\\Rock2",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "image": "assets\\images\\objects\\assets_images_objects_Rock2.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -49182,14 +49193,8 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\images\\objects\\Rock3",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "image": "assets\\images\\objects\\assets_images_objects_Rock3.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -49224,14 +49229,8 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\images\\objects\\Rock4",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "image": "assets\\images\\objects\\assets_images_objects_Rock4.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -49266,14 +49265,8 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets\\images\\objects\\Rock6",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "image": "assets\\images\\objects\\assets_images_objects_Rock5.png",
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -49309,13 +49302,7 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets\\images\\objects\\Rock.png",
-                      "points": [
-                        {
-                          "name": "Dust",
-                          "x": 32,
-                          "y": 60
-                        }
-                      ],
+                      "points": [],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -66576,11 +66563,6 @@
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
-                },
                 {
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "Enemies",
