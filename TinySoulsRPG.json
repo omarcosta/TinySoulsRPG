@@ -15617,6 +15617,214 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Terrain/Ground/Tilemap_Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Terrain\\Ground\\Tilemap_Flat.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Terrain/Water/Foam/Foam.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Terrain\\Water\\Foam\\Foam.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite372.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite372",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite373.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite373",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite374.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite374",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite375.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite375",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite376.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite376",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite377.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite377",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite378.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite378",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite379.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite379",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite380.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite380",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite381.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite381",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite382.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite382",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite383.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite383",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite384.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite384",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite385.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite385",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite386.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite386",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite387.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite387",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite380.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite380.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite381.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite381.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite382.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite382.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite383.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite383.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite384.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite384.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite385.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite385.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite386.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite386.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/third-party/Tiny Sword/Foam/NewSprite387.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite387.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -15660,6 +15868,7 @@
           "value": 200
         },
         {
+          "folded": true,
           "name": "attributes",
           "type": "structure",
           "children": [
@@ -15696,6 +15905,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "ASF",
           "type": "structure",
           "children": [
@@ -15732,6 +15942,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "base",
           "type": "structure",
           "children": [
@@ -15778,6 +15989,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "current",
           "type": "structure",
           "children": [
@@ -15834,6 +16046,7 @@
           ]
         },
         {
+          "folded": true,
           "name": "LevelUp",
           "type": "structure",
           "children": [
@@ -15863,6 +16076,11 @@
               "value": 0
             }
           ]
+        },
+        {
+          "name": "Floor",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -33804,83 +34022,89 @@
         },
         {
           "name": "Control",
-          "persistentUuid": "2f5316fe-6485-49f6-b2f5-59af467ebb68",
+          "persistentUuid": "ae73752f-725f-4415-9387-05aba9e77771",
           "type": "structure",
           "children": [
             {
+              "name": "Floor",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "combat",
-              "persistentUuid": "0b05da67-0078-4951-9e33-79d09a378e9a",
+              "persistentUuid": "1b9282ac-85fe-45d5-805c-5f0d5838584c",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
-              "persistentUuid": "b10827c4-92aa-48bb-b297-9e585e19a399",
+              "persistentUuid": "95a6cc53-f587-4889-9b69-a5ddd12eb18d",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
-              "persistentUuid": "a90e518a-b1e7-4840-8f08-cab241cb08e6",
+              "persistentUuid": "3774cf2f-9ffb-436f-a4bd-0d77d0619874",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
-              "persistentUuid": "28b21f80-e2af-409a-a3d7-b8635a11021d",
+              "persistentUuid": "ce185a0e-c410-4ba1-aa25-126bfcf42d67",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
-              "persistentUuid": "0ebfc669-52e9-4553-99eb-d0950360fdcd",
+              "persistentUuid": "89384b1d-a767-4088-a09b-40855a5c2660",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
-              "persistentUuid": "f4a94a20-f380-4f51-b3c0-6baf860f150e",
+              "persistentUuid": "537b3798-f44a-4bf8-a989-2f80c3882159",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
-              "persistentUuid": "00ddfc41-9f18-4485-8f69-425f42050f49",
+              "persistentUuid": "4ce8766c-f4a5-4c73-816b-a9c2272d31a4",
               "type": "boolean",
               "value": false
             },
             {
               "name": "has_lifeBar",
+              "persistentUuid": "19f384e6-a133-48a1-be04-8e2009e90fac",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
-              "persistentUuid": "b086c1bc-b0e0-4c09-8872-5e33280e9c9f",
+              "persistentUuid": "e0d55cd0-dd2e-4b8b-b1d5-d955a1789cf5",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
-              "persistentUuid": "5b424271-f380-4133-8d7d-cb2246ee2ad2",
+              "persistentUuid": "93c745b7-44f4-41c8-bed5-827d348200a7",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
-              "persistentUuid": "7bfaedcd-3a88-4599-a975-55a971b3a525",
+              "persistentUuid": "9ad48434-bad7-4cc2-920a-1f29905114ee",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
-              "persistentUuid": "26f4958a-ae26-437c-ae5a-df53d80bddaf",
+              "persistentUuid": "130179c9-9a16-44e7-ac85-0a1877771e4e",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
-              "persistentUuid": "c92c38f0-ea17-42ad-a95b-a7a0737660a3",
+              "persistentUuid": "7f31a3a2-143a-49ef-92a5-ce48d36380ee",
               "type": "number",
               "value": 0
             }
@@ -34991,70 +35215,89 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ae73752f-725f-4415-9387-05aba9e77771",
           "type": "structure",
           "children": [
             {
+              "name": "Floor",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "combat",
+              "persistentUuid": "1b9282ac-85fe-45d5-805c-5f0d5838584c",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "95a6cc53-f587-4889-9b69-a5ddd12eb18d",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "3774cf2f-9ffb-436f-a4bd-0d77d0619874",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "ce185a0e-c410-4ba1-aa25-126bfcf42d67",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "89384b1d-a767-4088-a09b-40855a5c2660",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "537b3798-f44a-4bf8-a989-2f80c3882159",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "4ce8766c-f4a5-4c73-816b-a9c2272d31a4",
               "type": "boolean",
               "value": false
             },
             {
               "name": "has_lifeBar",
+              "persistentUuid": "19f384e6-a133-48a1-be04-8e2009e90fac",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "e0d55cd0-dd2e-4b8b-b1d5-d955a1789cf5",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "93c745b7-44f4-41c8-bed5-827d348200a7",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "9ad48434-bad7-4cc2-920a-1f29905114ee",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "130179c9-9a16-44e7-ac85-0a1877771e4e",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "7f31a3a2-143a-49ef-92a5-ce48d36380ee",
               "type": "number",
               "value": 0
             }
@@ -36338,70 +36581,89 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ae73752f-725f-4415-9387-05aba9e77771",
           "type": "structure",
           "children": [
             {
+              "name": "Floor",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "combat",
+              "persistentUuid": "1b9282ac-85fe-45d5-805c-5f0d5838584c",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "95a6cc53-f587-4889-9b69-a5ddd12eb18d",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "3774cf2f-9ffb-436f-a4bd-0d77d0619874",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "ce185a0e-c410-4ba1-aa25-126bfcf42d67",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "89384b1d-a767-4088-a09b-40855a5c2660",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "537b3798-f44a-4bf8-a989-2f80c3882159",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "4ce8766c-f4a5-4c73-816b-a9c2272d31a4",
               "type": "boolean",
               "value": false
             },
             {
               "name": "has_lifeBar",
+              "persistentUuid": "19f384e6-a133-48a1-be04-8e2009e90fac",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "e0d55cd0-dd2e-4b8b-b1d5-d955a1789cf5",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "93c745b7-44f4-41c8-bed5-827d348200a7",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "9ad48434-bad7-4cc2-920a-1f29905114ee",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "130179c9-9a16-44e7-ac85-0a1877771e4e",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "7f31a3a2-143a-49ef-92a5-ce48d36380ee",
               "type": "number",
               "value": 0
             }
@@ -37003,70 +37265,89 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ae73752f-725f-4415-9387-05aba9e77771",
           "type": "structure",
           "children": [
             {
+              "name": "Floor",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "combat",
+              "persistentUuid": "1b9282ac-85fe-45d5-805c-5f0d5838584c",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "95a6cc53-f587-4889-9b69-a5ddd12eb18d",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "3774cf2f-9ffb-436f-a4bd-0d77d0619874",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "ce185a0e-c410-4ba1-aa25-126bfcf42d67",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "89384b1d-a767-4088-a09b-40855a5c2660",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "537b3798-f44a-4bf8-a989-2f80c3882159",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "4ce8766c-f4a5-4c73-816b-a9c2272d31a4",
               "type": "boolean",
               "value": false
             },
             {
               "name": "has_lifeBar",
+              "persistentUuid": "19f384e6-a133-48a1-be04-8e2009e90fac",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "e0d55cd0-dd2e-4b8b-b1d5-d955a1789cf5",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "93c745b7-44f4-41c8-bed5-827d348200a7",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "9ad48434-bad7-4cc2-920a-1f29905114ee",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "130179c9-9a16-44e7-ac85-0a1877771e4e",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "7f31a3a2-143a-49ef-92a5-ce48d36380ee",
               "type": "number",
               "value": 0
             }
@@ -37720,70 +38001,89 @@
         },
         {
           "name": "Control",
+          "persistentUuid": "ae73752f-725f-4415-9387-05aba9e77771",
           "type": "structure",
           "children": [
             {
+              "name": "Floor",
+              "type": "number",
+              "value": 0
+            },
+            {
               "name": "combat",
+              "persistentUuid": "1b9282ac-85fe-45d5-805c-5f0d5838584c",
               "type": "boolean",
               "value": true
             },
             {
               "name": "cooldown_atk",
+              "persistentUuid": "95a6cc53-f587-4889-9b69-a5ddd12eb18d",
               "type": "number",
               "value": 2
             },
             {
               "name": "cooldown_excludeObj",
+              "persistentUuid": "3774cf2f-9ffb-436f-a4bd-0d77d0619874",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_exitCombat",
+              "persistentUuid": "ce185a0e-c410-4ba1-aa25-126bfcf42d67",
               "type": "number",
               "value": 5
             },
             {
               "name": "cooldown_knock",
+              "persistentUuid": "89384b1d-a767-4088-a09b-40855a5c2660",
               "type": "number",
               "value": 1
             },
             {
               "name": "cooldown_orientation",
+              "persistentUuid": "537b3798-f44a-4bf8-a989-2f80c3882159",
               "type": "number",
               "value": 0
             },
             {
               "name": "has_attackaArea",
+              "persistentUuid": "4ce8766c-f4a5-4c73-816b-a9c2272d31a4",
               "type": "boolean",
               "value": false
             },
             {
               "name": "has_lifeBar",
+              "persistentUuid": "19f384e6-a133-48a1-be04-8e2009e90fac",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_attacking",
+              "persistentUuid": "e0d55cd0-dd2e-4b8b-b1d5-d955a1789cf5",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_dead",
+              "persistentUuid": "93c745b7-44f4-41c8-bed5-827d348200a7",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_hurt",
+              "persistentUuid": "9ad48434-bad7-4cc2-920a-1f29905114ee",
               "type": "boolean",
               "value": false
             },
             {
               "name": "is_knocked",
+              "persistentUuid": "130179c9-9a16-44e7-ac85-0a1877771e4e",
               "type": "boolean",
               "value": false
             },
             {
               "name": "orientation",
+              "persistentUuid": "7f31a3a2-143a-49ef-92a5-ce48d36380ee",
               "type": "number",
               "value": 0
             }
@@ -41270,7 +41570,7 @@
           "name": "Saint"
         },
         {
-          "name": "BarreiraNasCoxa"
+          "name": "BlockRock"
         }
       ]
     },
@@ -41472,18 +41772,6 @@
           "name": "Volume",
           "type": "number",
           "value": 100
-        }
-      ]
-    },
-    {
-      "folded": true,
-      "name": "SceneVariables",
-      "type": "structure",
-      "children": [
-        {
-          "name": "Floor",
-          "type": "number",
-          "value": 0
         }
       ]
     }
@@ -46488,7 +46776,7 @@
       "title": "",
       "v": 171,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 64,
         "gridHeight": 64,
@@ -46496,8 +46784,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.2022070730360588,
+        "snap": true,
+        "zoomFactor": 0.4194339782759924,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46512,8 +46800,8 @@
           "name": "Player",
           "persistentUuid": "802bd4bd-e278-4e67-a969-e250d01e9c9b",
           "width": 0,
-          "x": 176,
-          "y": 3785,
+          "x": 2567,
+          "y": 1927,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -46576,7 +46864,7 @@
           "width": 3200,
           "x": 0,
           "y": 0,
-          "zOrder": 0,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [
             {
@@ -46628,14 +46916,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 66,
+          "height": 113,
           "keepRatio": true,
           "layer": "Limits",
           "name": "FloorUP",
           "persistentUuid": "4dc58955-5b6d-4555-8642-c4919944adf4",
-          "width": 406,
-          "x": 1425,
-          "y": 1519,
+          "width": 576,
+          "x": 1344,
+          "y": 1472,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -46645,14 +46933,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 61,
+          "height": 512,
           "keepRatio": true,
           "layer": "Limits",
           "name": "FloorDown",
           "persistentUuid": "c0116baa-97a9-4741-bbd9-f38477e3f0d3",
-          "width": 221,
-          "x": 2100,
-          "y": 2111,
+          "width": 1216,
+          "x": 1984,
+          "y": 1728,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -47355,14 +47643,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 61,
+          "height": 512,
           "keepRatio": true,
           "layer": "Limits",
           "name": "FloorDown",
           "persistentUuid": "76eb8f9e-643e-4804-8626-7904cbf5e9fb",
-          "width": 221,
-          "x": 1519,
-          "y": 1795,
+          "width": 1792,
+          "x": 64,
+          "y": 1728,
           "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
@@ -47389,14 +47677,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 66,
+          "height": 640,
           "keepRatio": true,
           "layer": "Limits",
           "name": "FloorUP",
           "persistentUuid": "ff6f5750-3a8e-4722-abf3-5750c05d2ea0",
-          "width": 231,
-          "x": 2099,
-          "y": 2325,
+          "width": 2752,
+          "x": 0,
+          "y": 2368,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -47406,21 +47694,21 @@
           "angle": 0,
           "customSize": true,
           "depth": 6.963788300835655,
-          "height": 4416,
+          "height": 4608,
           "keepRatio": true,
           "layer": "Ocean",
           "name": "Ocean",
           "opacity": 77,
           "persistentUuid": "b27a6ad6-a88c-455d-aeca-a13900c4982a",
-          "width": 3456,
-          "x": -116,
-          "y": -116,
+          "width": 3648,
+          "x": -192,
+          "y": -192,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [
             {
               "name": "tilemap",
-              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":54,\"dimY\":69,\"layers\":[{\"id\":0,\"alpha\":0.5,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6],[4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6],[8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10],[8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10],[12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14],[30,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,30]]}]}"
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":57,\"dimY\":72,\"layers\":[{\"id\":0,\"alpha\":0.5,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,2],[4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,5,5,6,-1,-1,6],[4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,-1,-1,6],[8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,-1,-1,6],[4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,-1,-1,6],[4,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14,-1,-1,6],[4,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,30,-1,-1,6],[8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10],[12,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,14],[28,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,30]]}]}"
             }
           ],
           "initialVariables": []
@@ -47430,269 +47718,1201 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "debda2f6-0103-4ae8-987e-849137effd2e",
+          "layer": "Terrain",
+          "name": "Terrain_2",
+          "persistentUuid": "b051baa8-d47f-449c-a5e0-a6bd5f984f8a",
           "width": 0,
-          "x": 2470,
-          "y": 3324,
-          "zOrder": 58,
+          "x": -128,
+          "y": -128,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [
+            {
+              "name": "tilemap",
+              "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":55,\"dimY\":68,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[10,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,12],[20,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,22]]}]}"
+            }
+          ],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "bbb0d678-f633-40e2-b48d-141fb5bcebe0",
+          "width": 320,
+          "x": -192,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "58a3981f-c310-47f8-94ed-6b97668fc3a2",
-          "width": 0,
-          "x": 2868,
-          "y": 3461,
-          "zOrder": 59,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "c588143f-6016-41ac-8362-22c70a827baf",
+          "width": 320,
+          "x": 64,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "5170f069-e42d-4e13-8470-ad2796ab8685",
-          "width": 0,
-          "x": 3037,
-          "y": 3880,
-          "zOrder": 60,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "d3f52900-1596-4b38-a7af-f11637b9abbb",
+          "width": 320,
+          "x": -192,
+          "y": 3712,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "a7879857-490f-46b8-9c91-19e281e508cc",
-          "width": 0,
-          "x": 3029,
-          "y": 3223,
-          "zOrder": 61,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "22b85957-8082-4697-a7c5-4f11c5a4fbdd",
+          "width": 320,
+          "x": -192,
+          "y": 3456,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "9e3d1062-bc89-4119-b28d-7b2f0063f4a0",
-          "width": 0,
-          "x": 530,
-          "y": 2391,
-          "zOrder": 62,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "ae7fd9d8-4bec-49c3-9d56-c0566a4a1a64",
+          "width": 320,
+          "x": -192,
+          "y": 3200,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "cb65bf27-4372-43d9-9ebd-75055f6be302",
-          "width": 0,
-          "x": 237,
-          "y": 2405,
-          "zOrder": 63,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "4d27d63d-9cd4-4ca0-8182-eefdaa551836",
+          "width": 320,
+          "x": 320,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "f8776004-01ef-4d91-a9e9-3e709157187a",
-          "width": 0,
-          "x": 2845,
-          "y": 1782,
-          "zOrder": 64,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "015d26ab-60f4-456f-906c-28fba8bbd59b",
+          "width": 320,
+          "x": 576,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "c8d3088e-5f57-4ab3-abd8-6db11aae20fb",
-          "width": 0,
-          "x": 2959,
-          "y": 1782,
-          "zOrder": 65,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "a1dca402-5de2-4034-9ae4-2eba451b526c",
+          "width": 320,
+          "x": 832,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "58ba0698-1634-4f57-b079-d6f987f4833d",
-          "width": 0,
-          "x": 2362,
-          "y": 2266,
-          "zOrder": 66,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "f7274a62-995d-4f42-8261-c85e2caf8b79",
+          "width": 320,
+          "x": 1088,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "81263eae-3e40-4a23-bfe2-a41e4fdc9d75",
-          "width": 0,
-          "x": 3169,
-          "y": 2271,
-          "zOrder": 67,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "761247fb-48d8-4877-af7b-8d9ea737cb3c",
+          "width": 320,
+          "x": 1216,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "a6eab2bb-237b-45cb-bf83-ee7cc498958e",
-          "width": 0,
-          "x": 1796,
-          "y": 2269,
-          "zOrder": 68,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "1c425392-f88e-4d59-beb4-b52bca3606ab",
+          "width": 320,
+          "x": 1472,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "02f0eacf-c1e9-4f61-be61-24c2cc287e5f",
-          "width": 0,
-          "x": 1491,
-          "y": 1376,
-          "zOrder": 69,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "55086841-3743-4115-905f-04fb6e212f09",
+          "width": 320,
+          "x": 1728,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "1cea9b3c-d042-400f-ba5b-3d31da7841c4",
-          "width": 0,
-          "x": 1819,
-          "y": 1070,
-          "zOrder": 70,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "c0fcce7d-db89-4105-847e-4698f6ffa382",
+          "width": 320,
+          "x": 1984,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "0b81964e-7234-4ea7-8cf1-7159e4e03d65",
-          "width": 0,
-          "x": 2637,
-          "y": 1384,
-          "zOrder": 71,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "0e958aad-61fb-40c2-9aec-1d3d35049b90",
+          "width": 320,
+          "x": 2240,
+          "y": 3968,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "bb0a7598-cf53-4aeb-9206-6ddbe0e8a02b",
-          "width": 0,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "11efebd2-c31f-4996-a68b-baf64bce1346",
+          "width": 320,
+          "x": 2496,
+          "y": 3968,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "978a502c-a5c0-4d12-8dfe-35e71cb04df6",
+          "width": 320,
+          "x": 2752,
+          "y": 3968,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "7a112569-e795-4f40-a502-53c69865343c",
+          "width": 448,
+          "x": 3008,
+          "y": 3968,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "b95292e4-07f8-4139-b3fa-5f77330d68cb",
+          "width": 320,
+          "x": 3136,
+          "y": 3712,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "ce002680-1184-4e5f-98fe-33114b615e28",
+          "width": 320,
+          "x": 3136,
+          "y": 3456,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "eff9ebc6-7c5d-4851-863e-86b80f6e1472",
+          "width": 320,
+          "x": 3136,
+          "y": 3200,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "5a96fff9-cad6-4c75-adb3-5ec59e77e8f8",
+          "width": 320,
+          "x": 3136,
+          "y": 2944,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "1382e8c5-3a5c-435f-9b24-39c9f6a572f4",
+          "width": 320,
+          "x": 3136,
+          "y": 2688,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "745b903c-afe4-44ec-bf57-03e364ae7e8d",
+          "width": 320,
+          "x": 3136,
+          "y": 2432,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "00c43501-31ef-4a5a-9467-c29c7bc07df1",
+          "width": 320,
+          "x": 3136,
+          "y": 2176,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "d66da7e5-494b-4a5c-addf-9a875135f198",
+          "width": 320,
+          "x": 3136,
+          "y": 1920,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "130e5034-b121-47c8-ae3b-2637ffc20a10",
+          "width": 320,
+          "x": 3136,
+          "y": 1600,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "01352e12-a4c9-4a1b-88c8-97bfb874a2d6",
+          "width": 320,
+          "x": 3136,
+          "y": 1344,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "db3bd3c0-5109-4b91-900a-20df1a1d0808",
+          "width": 320,
+          "x": 3136,
+          "y": 1088,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "005cd1f4-f547-4728-a1fc-1caed9ec3a1f",
+          "width": 320,
+          "x": 3136,
+          "y": 832,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "a3f80f13-0dcc-49b8-866c-9c26b866cfbd",
+          "width": 320,
+          "x": 3136,
+          "y": 576,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "2ae911bc-8603-4f20-892b-e3599a486cce",
+          "width": 320,
+          "x": 3136,
+          "y": 320,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "b4078a1e-9706-4514-9b13-4ccd71560c79",
+          "width": 320,
+          "x": 3136,
+          "y": 64,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "817ea06b-5057-4ba6-ad84-efd4f473ee07",
+          "width": 320,
+          "x": 3136,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "3e1fb131-dbf2-4ccc-a9e9-ba5bb2e37b45",
+          "width": 576,
+          "x": 2688,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "c5ca5b0e-4720-4dab-81ec-8ec73c4847f0",
+          "width": 448,
           "x": 2368,
-          "y": 315,
-          "zOrder": 72,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "761405a8-978a-4eca-abd5-07736692ee3f",
+          "width": 320,
+          "x": 2112,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "3dc4a5f8-365f-4c82-93e3-93883593ee18",
+          "width": 320,
+          "x": 1856,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "2bdb5efe-da3d-49da-b2c4-47bb899b4394",
+          "width": 448,
+          "x": 1472,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "562c7d79-9dd7-46e2-8182-9ca74fe3f5d1",
+          "width": 384,
+          "x": 1152,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "d2b62f52-d2f3-4820-9a43-c93eaf7423ea",
+          "width": 320,
+          "x": 896,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "2f3937f9-a68e-45a8-abce-2cfe096193e6",
+          "width": 256,
+          "x": 704,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "927fd59e-12c8-4727-97b8-d7246833f778",
+          "width": 320,
+          "x": -192,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "9840d5b5-bc2e-4e55-8b9a-3c8eb8191936",
+          "width": 320,
+          "x": 64,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "76acc72a-bbd5-46df-a570-2100cc50b7b9",
+          "width": 448,
+          "x": 320,
+          "y": -192,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "7cc99791-d28a-4528-a2df-84897172679a",
+          "width": 320,
+          "x": -192,
+          "y": 64,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 384,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "87ebbbe5-b343-4ada-bcb4-74508fea9848",
+          "width": 320,
+          "x": -192,
+          "y": 512,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "6aed27d8-f649-45e9-a134-667eb3578303",
+          "width": 320,
+          "x": -192,
+          "y": 896,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 640,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "d5e07120-87c4-4830-a230-c1edc9d49be2",
+          "width": 320,
+          "x": -192,
+          "y": 1088,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "590d2621-c746-4b08-87ed-d7cddb0aa0bc",
+          "width": 320,
+          "x": -192,
+          "y": 1600,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": true
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 448,
+          "keepRatio": true,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "88eb46f7-d05b-43bf-b9e0-7f0abc4c84b7",
+          "width": 320,
+          "x": -192,
+          "y": 2816,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "fd93e727-3788-449a-968c-191235d7dac7",
-          "width": 0,
-          "x": 679,
-          "y": 1320,
-          "zOrder": 73,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "ac27609a-8f97-4497-b54e-2194a38dd480",
+          "width": 320,
+          "x": -192,
+          "y": 2304,
+          "zOrder": 79,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
           "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "39701b5f-8878-45f6-b579-eb4dfa544fcf",
-          "width": 0,
-          "x": 3140,
-          "y": 3706,
-          "zOrder": 75,
+          "layer": "Ocean",
+          "name": "Foam",
+          "opacity": 179,
+          "persistentUuid": "54235f4e-2fed-4d7a-bd32-71ad5797dd9b",
+          "width": 384,
+          "x": -192,
+          "y": 1920,
+          "zOrder": 79,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "StructuresBase",
+          "name": "BG_Black_5",
+          "persistentUuid": "f1b23aeb-8a4c-4860-a1c8-70cdeee4bc3b",
+          "width": 128,
+          "x": 2816,
+          "y": 2304,
+          "zOrder": 80,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Locate",
+              "type": "string",
+              "value": "tunel"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "StructuresBase",
+          "name": "BG_Back_30",
+          "persistentUuid": "20d140b4-7906-483f-9528-487a8324417e",
+          "width": 1024,
+          "x": 1792,
+          "y": 2304,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Locate",
+              "type": "string",
+              "value": "tunel"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "StructuresBase",
+          "name": "BG_Back_30",
+          "persistentUuid": "b1bb47f2-ff2f-4e48-8f00-0e7d9387adae",
+          "width": 256,
+          "x": 2944,
+          "y": 2304,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Locate",
+              "type": "string",
+              "value": "tunel"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "Limits",
+          "name": "FloorDown",
+          "persistentUuid": "5fb8f672-43bf-4890-880a-7f6329daf64e",
+          "width": 3072,
+          "x": 0,
+          "y": 3648,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 576,
+          "keepRatio": true,
+          "layer": "Limits",
+          "name": "FloorUP",
+          "persistentUuid": "d7c94044-6364-4e95-8ba3-f529841e62e8",
+          "width": 1024,
+          "x": 0,
+          "y": 3008,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47704,11 +48924,206 @@
           "keepRatio": true,
           "layer": "",
           "name": "Slime",
-          "persistentUuid": "31e567ea-3aea-4d49-a3ce-6ff0ca388446",
+          "persistentUuid": "21259285-7fef-4b29-baa5-8991e720a716",
           "width": 0,
-          "x": 1141,
-          "y": 667,
-          "zOrder": 76,
+          "x": 2240,
+          "y": 1984,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "18bb11bc-2a2b-4765-9211-70a5a212d1ce",
+          "width": 0,
+          "x": 2528,
+          "y": 2878,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "c171869f-63f4-4cb8-af45-bc9bfb6f3c23",
+          "width": 0,
+          "x": 2560,
+          "y": 2432,
+          "zOrder": 83,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "812af2bc-5361-4ba6-84f8-97cbf7898d7b",
+          "width": 0,
+          "x": 2272,
+          "y": 2686,
+          "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 512,
+          "keepRatio": true,
+          "layer": "Limits",
+          "name": "FloorDown",
+          "persistentUuid": "73610d78-4972-469d-9638-27750f1de8b9",
+          "width": 2048,
+          "x": 1024,
+          "y": 3136,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1387,
+          "keepRatio": true,
+          "layer": "Limits",
+          "name": "FloorUP",
+          "persistentUuid": "5fad7c00-a0ba-4de9-a607-a42578111be6",
+          "width": 64,
+          "x": 3136,
+          "y": 2432,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 192,
+          "keepRatio": true,
+          "layer": "Limits",
+          "name": "FloorDown",
+          "persistentUuid": "edea1f00-7213-4505-9c64-098ef37c754f",
+          "width": 384,
+          "x": 2688,
+          "y": 2944,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "35dd9b7f-430a-4037-bb02-143c8f71c3bb",
+          "width": 0,
+          "x": 3136,
+          "y": 3712,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "81fb02fd-fce3-40aa-ac68-d30ff010b8e8",
+          "width": 0,
+          "x": 3136,
+          "y": 3648,
+          "zOrder": 87,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "44dcec4b-7a0e-4ee0-a06c-43bb22a5a6c6",
+          "width": 0,
+          "x": 3136,
+          "y": 3776,
+          "zOrder": 88,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "e5b82d72-2737-4e00-8d09-d701f225213e",
+          "width": 0,
+          "x": 768,
+          "y": 3392,
+          "zOrder": 89,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "ab6374c9-513d-4dff-b96d-59bbae951645",
+          "width": 0,
+          "x": 256,
+          "y": 3008,
+          "zOrder": 90,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "d427fae8-6e6e-4a49-a9f5-d611faec546b",
+          "width": 0,
+          "x": 832,
+          "y": 2816,
+          "zOrder": 91,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47720,11 +49135,427 @@
           "keepRatio": true,
           "layer": "",
           "name": "Slime",
-          "persistentUuid": "41a04ace-1e10-4239-9910-81d0ff52215e",
+          "persistentUuid": "92c42582-5326-4d2d-a3ce-f326f02d2be0",
           "width": 0,
-          "x": 693,
-          "y": 214,
-          "zOrder": 77,
+          "x": 384,
+          "y": 2368,
+          "zOrder": 92,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "63363dc4-ef39-416e-9e9a-27f19cbeb712",
+          "width": 0,
+          "x": 192,
+          "y": 2560,
+          "zOrder": 93,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "1d00f201-7d95-4edb-bf46-8af1239cc195",
+          "width": 0,
+          "x": 1984,
+          "y": 2624,
+          "zOrder": 94,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "922d30ee-6e31-4058-86f7-5cbadb4462a9",
+          "width": 0,
+          "x": 3136,
+          "y": 3584,
+          "zOrder": 95,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "e86990c7-1b52-4146-9603-c4b6c1180abf",
+          "width": 0,
+          "x": 3136,
+          "y": 3456,
+          "zOrder": 96,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "5dae8a57-d445-45af-8e78-4f52980afe3c",
+          "width": 0,
+          "x": 3136,
+          "y": 3328,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "781221b4-741d-4aae-9d32-a9fa09659b13",
+          "width": 0,
+          "x": 3136,
+          "y": 3200,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "d8316a5b-987e-4feb-b63f-d31b7300f4d3",
+          "width": 0,
+          "x": 1152,
+          "y": 2048,
+          "zOrder": 99,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "d5194b52-e4b1-4914-ae2b-a6e68afd8517",
+          "width": 0,
+          "x": 1216,
+          "y": 1792,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "6c9ab625-b4d0-4051-b686-c15408f45c86",
+          "width": 0,
+          "x": 192,
+          "y": 3328,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "d5d4858c-efd9-46f6-b02b-35af3fb6d4bd",
+          "width": 0,
+          "x": 320,
+          "y": 1920,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "3ffdbe9b-9b42-47d3-bf2d-ea0865770886",
+          "width": 0,
+          "x": 512,
+          "y": 2048,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "4c8f2ef1-4fb4-465b-a360-5e2853249994",
+          "width": 0,
+          "x": 768,
+          "y": 1792,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "8e7d24a5-9198-4564-a401-5d7fff0dc8a1",
+          "width": 0,
+          "x": 1664,
+          "y": 2176,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "f09b049a-c3d1-4e39-8f3f-3bef13da1f8f",
+          "width": 0,
+          "x": 3072,
+          "y": 1792,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "a2d230a7-bc94-41ca-a63c-974656298cf6",
+          "width": 0,
+          "x": 2624,
+          "y": 1792,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "6616723e-2e92-4598-b2f5-c8b8732910c5",
+          "width": 0,
+          "x": 2048,
+          "y": 2240,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "3ad55d66-7c38-4a63-a212-3e4211c5c87c",
+          "width": 0,
+          "x": 2048,
+          "y": 2176,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "04059531-2ae2-473f-bf3b-ec5db2468b05",
+          "width": 0,
+          "x": 2816,
+          "y": 2176,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "4a190d4d-d5ae-44c5-88b8-5daedd522cfb",
+          "width": 0,
+          "x": 2624,
+          "y": 3328,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "bdfa404f-3050-49d9-bc13-5c218dd5de70",
+          "width": 0,
+          "x": 2240,
+          "y": 3776,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "38f6b7d3-ede1-4248-bc2c-55a3e9b31dbe",
+          "width": 0,
+          "x": 1472,
+          "y": 3392,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "618350c3-d695-4081-875d-857585d63d7f",
+          "width": 0,
+          "x": 1984,
+          "y": 3264,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "f87ca0e6-a7b6-454d-995c-20e1c1c44479",
+          "width": 0,
+          "x": 2336,
+          "y": 2206,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeVeloz",
+          "persistentUuid": "70b016d4-7310-4453-b664-8435bb0d9d3b",
+          "width": 0,
+          "x": 3136,
+          "y": 3264,
+          "zOrder": 116,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "76b49706-aca0-4e33-a319-73198b7d2443",
+          "width": 0,
+          "x": 3136,
+          "y": 3392,
+          "zOrder": 117,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Slime",
+          "persistentUuid": "11bbaafb-8d4a-4160-ba9a-40fb3600055c",
+          "width": 0,
+          "x": 3136,
+          "y": 3520,
+          "zOrder": 118,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47737,7 +49568,13 @@
           "name": "BG_Back_30",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Locate",
+              "type": "string",
+              "value": ""
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -49201,7 +51038,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "BlockRock",
           "type": "Sprite",
@@ -49236,20 +51073,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49272,20 +51117,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49308,20 +51161,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49344,20 +51205,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49380,20 +51249,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49416,20 +51293,28 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
-                            "y": 44
+                            "x": 0,
+                            "y": 23
                           },
                           {
-                            "x": 22,
-                            "y": 44
+                            "x": 32,
+                            "y": 17.5
                           },
                           {
-                            "x": 22,
-                            "y": 60
+                            "x": 57,
+                            "y": 17.5
                           },
                           {
-                            "x": 3,
-                            "y": 60
+                            "x": 64,
+                            "y": 25.5
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -49823,6 +51708,432 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Terrain_2",
+          "type": "TileMap::SimpleTileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "atlasImage": "assets\\third-party\\Tiny Sword\\Terrain\\Ground\\Tilemap_Flat.png",
+            "rowCount": 4,
+            "columnCount": 10,
+            "tileSize": 64,
+            "tilesWithHitBox": ""
+          }
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Foam",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "StepBoss",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.00001,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite386.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Play",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite380.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite381.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite382.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite383.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite384.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite385.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite386.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\third-party\\Tiny Sword\\Foam\\NewSprite387.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 3
+                          },
+                          {
+                            "x": 89,
+                            "y": 89
+                          },
+                          {
+                            "x": 3,
+                            "y": 89
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite2",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 64,
+          "name": "BG_Black_5",
+          "texture": "assets\\images\\misc\\B50.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 64,
+          "variables": [
+            {
+              "name": "Locate",
+              "type": "string",
+              "value": ""
+            }
+          ],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -49865,6 +52176,21 @@
               },
               {
                 "objectName": "Ocean"
+              },
+              {
+                "objectName": "Terrain_2"
+              },
+              {
+                "objectName": "NewTiledSprite"
+              },
+              {
+                "objectName": "Foam"
+              },
+              {
+                "objectName": "BG_Black_5"
+              },
+              {
+                "objectName": "NewTiledSprite2"
               }
             ]
           },
@@ -50395,6 +52721,16 @@
                 },
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemiesDefeated",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Scene"
                   },
                   "parameters": [
@@ -50486,10 +52822,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
                           ]
@@ -50525,10 +52862,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "1"
                           ]
@@ -50555,7 +52893,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Tunnel",
+                  "name": "Tunnel (Player)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -50576,10 +52914,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
                           ]
@@ -50600,7 +52939,74 @@
                             "Player",
                             "Opacity",
                             "=",
-                            "10"
+                            "25"
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": []
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "BG_Back_30",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "BG_Back_30",
+                                "Locate",
+                                "=",
+                                "\"tunel\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "BG_Back_30",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "BG_Black_5",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "BG_Black_5",
+                                "Locate",
+                                "=",
+                                "\"tunel\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "BG_Black_5",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -50623,10 +53029,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
                           ]
@@ -50650,6 +53057,68 @@
                             "255"
                           ]
                         }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "BG_Back_30",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "BG_Back_30",
+                                "Locate",
+                                "=",
+                                "\"tunel\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "BG_Back_30",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "BG_Black_5",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "BG_Black_5",
+                                "Locate",
+                                "=",
+                                "\"tunel\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "BG_Black_5",
+                                "Opacity",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
                       ]
                     }
                   ],
@@ -50660,7 +53129,99 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "name": "Set floor",
+                  "name": "Tunnel (Enemies)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "HidePlayer",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.Floor",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Opacity",
+                                "=",
+                                "25"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "HidePlayer",
+                                "",
+                                "",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "OpacityCapability::OpacityBehavior::SetValue"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Opacity",
+                                "=",
+                                "255"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Set floor (Player)",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
                   "events": [
@@ -50679,10 +53240,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetNumberVariable"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
                           ]
@@ -50706,10 +53268,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
                           ]
@@ -50724,10 +53287,11 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetNumberVariable"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "1"
                           ]
@@ -50751,10 +53315,11 @@
                         },
                         {
                           "type": {
-                            "value": "NumberVariable"
+                            "value": "NumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "!=",
                             "0"
                           ]
@@ -50769,12 +53334,266 @@
                       "actions": [
                         {
                           "type": {
-                            "value": "SetNumberVariable"
+                            "value": "SetNumberObjectVariable"
                           },
                           "parameters": [
-                            "SceneVariables.Floor",
+                            "Player",
+                            "Floor",
                             "=",
                             "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Set floor (Enemies)",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Enemies",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "FloorUP",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.Floor",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.Floor",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionNP"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "FloorDown",
+                                "",
+                                "",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.Floor",
+                                "!=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberObjectVariable"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Control.Floor",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Foam",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Foam",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "InOnScreen",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "Animation",
+                                "!=",
+                                "\"Play\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "Animation",
+                                "=",
+                                "\"Play\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "InOnScreen",
+                                "0",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::Name"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "Animation",
+                                "!=",
+                                "\"Idle\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "Animation",
+                                "=",
+                                "\"Idle\""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "SceneInstancesCount"
+                              },
+                              "parameters": [
+                                "",
+                                "SlimeBoss",
+                                ">",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BooleanObjectVariable"
+                              },
+                              "parameters": [
+                                "Foam",
+                                "StepBoss",
+                                "=",
+                                ""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Foam",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -51087,6 +53906,54 @@
                           "parameters": [
                             "InvokeBoss",
                             ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::ForEach",
+                          "object": "Enemies",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "PosY"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                ">",
+                                "SlimeBoss.Y()+10"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                "Animation",
+                                "=",
+                                "\"dead\""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Wait"
+                              },
+                              "parameters": [
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Delete"
+                              },
+                              "parameters": [
+                                "Enemies",
+                                ""
+                              ]
+                            }
                           ]
                         }
                       ]
@@ -51461,6 +54328,11 @@
                                     {
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
+                                      "actions": []
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
                                       "actions": [
                                         {
                                           "type": {
@@ -51469,6 +54341,17 @@
                                           "parameters": [
                                             "",
                                             "\"SpawnTimer\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Enemies",
+                                            "Control.Floor",
+                                            "=",
+                                            "1"
                                           ]
                                         }
                                       ]
@@ -51490,11 +54373,6 @@
                               ]
                             }
                           ]
-                        },
-                        {
-                          "type": "BuiltinCommonInstructions::Standard",
-                          "conditions": [],
-                          "actions": []
                         }
                       ]
                     }
@@ -53095,7 +55973,7 @@
                         "Fatec",
                         "Opacity",
                         "+",
-                        "3"
+                        "2"
                       ]
                     }
                   ]
@@ -58184,6 +61062,17 @@
                                     },
                                     {
                                       "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "Floor",
+                                        "=",
+                                        "Enemies.Control.Floor"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
                                         "value": "BuiltinCommonInstructions::Once"
                                       },
                                       "parameters": []
@@ -58350,6 +61239,17 @@
                                     "",
                                     "",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "Floor",
+                                    "=",
+                                    "Enemies.Control.Floor"
                                   ]
                                 }
                               ],
@@ -60748,7 +63648,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "SlimeBoss",
                   "conditions": [],
@@ -61050,6 +63949,17 @@
                             "Control.is_dead",
                             "False",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "SlimeBoss",
+                            "Control.Floor",
+                            "=",
+                            "1"
                           ]
                         },
                         {
@@ -62455,6 +65365,17 @@
                         },
                         {
                           "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Floor",
+                            "=",
+                            "Enemies.Control.Floor"
+                          ]
+                        },
+                        {
+                          "type": {
                             "inverted": true,
                             "value": "Distance"
                           },
@@ -62493,6 +65414,17 @@
                             "Enemies",
                             "40",
                             ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Floor",
+                            "=",
+                            "Enemies.Control.Floor"
                           ]
                         }
                       ],
@@ -64753,6 +67685,63 @@
                             "Log",
                             "+",
                             "NewLine()+\n\"Enemys: \" + ToString(SceneInstancesCount(Enemies))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Floor Player and enemies"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "NewLine()+NewLine()+\n\"Floor Player: \" + Player.Floor +NewLine()+\n\"Floor : \"+ Enemies.Control.Floor +NewLine()+NewLine()"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 78,
+                        "g": 78,
+                        "r": 78,
+                        "textB": 248,
+                        "textG": 248,
+                        "textR": 248
+                      },
+                      "comment": "Foam instance"
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetStringVariable"
+                          },
+                          "parameters": [
+                            "Log",
+                            "+",
+                            "NewLine()+\n\"Number Foam: \" + ToString(SceneInstancesCount(Foam))"
                           ]
                         }
                       ]
