@@ -40346,7 +40346,7 @@
       ],
       "effects": [],
       "behaviors": [],
-      "string": "►  Defeat The Slimy Nightmare King\n ▻ Defeat 50 enemies\n ▻ Complete within 15 minutes",
+      "string": "►  Defeat The Slimy Nightmare King (BOSS)\n ▻ Defeat enemies to gain XP and become a hero.\n ▻ Time isn't on your side\n\n►  Us Academy Lessons\n ▻ Use WASD to move.\n ▻ LEFT mouse button to attack\n ▻ RIGHT mouse button to block\n ▻ Press ENTER to pause",
       "font": "assets\\fonts\\Pixtura12.ttf",
       "textAlignment": "left",
       "characterSize": 18,
@@ -40369,7 +40369,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "►  Defeat The Slimy Nightmare King\n ▻ Defeat 50 enemies\n ▻ Complete within 15 minutes",
+        "text": "►  Defeat The Slimy Nightmare King (BOSS)\n ▻ Defeat enemies to gain XP and become a hero.\n ▻ Time isn't on your side\n\n►  Us Academy Lessons\n ▻ Use WASD to move.\n ▻ LEFT mouse button to attack\n ▻ RIGHT mouse button to block\n ▻ Press ENTER to pause",
         "font": "assets\\fonts\\Pixtura12.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "center",
@@ -46776,7 +46776,7 @@
       "title": "",
       "v": 171,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 64,
         "gridHeight": 64,
@@ -46784,8 +46784,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.4194339782759924,
+        "snap": false,
+        "zoomFactor": 0.34375202416130246,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46800,8 +46800,8 @@
           "name": "Player",
           "persistentUuid": "802bd4bd-e278-4e67-a969-e250d01e9c9b",
           "width": 0,
-          "x": 2567,
-          "y": 1927,
+          "x": 170,
+          "y": 3783,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -46883,7 +46883,7 @@
           "name": "LadderTunnel",
           "persistentUuid": "01901d14-bdaa-40e0-be5a-3e2b74c3a0c5",
           "width": 3168,
-          "x": 0,
+          "x": -1,
           "y": 0,
           "zOrder": 38,
           "numberProperties": [],
@@ -48923,26 +48923,10 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Slime",
-          "persistentUuid": "21259285-7fef-4b29-baa5-8991e720a716",
-          "width": 0,
-          "x": 2240,
-          "y": 1984,
-          "zOrder": 81,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "SlimeResistente",
           "persistentUuid": "18bb11bc-2a2b-4765-9211-70a5a212d1ce",
           "width": 0,
-          "x": 2528,
+          "x": 2464,
           "y": 2878,
           "zOrder": 82,
           "numberProperties": [],
@@ -49028,54 +49012,6 @@
           "x": 2688,
           "y": 2944,
           "zOrder": 41,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "35dd9b7f-430a-4037-bb02-143c8f71c3bb",
-          "width": 0,
-          "x": 3136,
-          "y": 3712,
-          "zOrder": 86,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "81fb02fd-fce3-40aa-ac68-d30ff010b8e8",
-          "width": 0,
-          "x": 3136,
-          "y": 3648,
-          "zOrder": 87,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeVeloz",
-          "persistentUuid": "44dcec4b-7a0e-4ee0-a06c-43bb22a5a6c6",
-          "width": 0,
-          "x": 3136,
-          "y": 3776,
-          "zOrder": 88,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49182,59 +49118,11 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Slime",
-          "persistentUuid": "922d30ee-6e31-4058-86f7-5cbadb4462a9",
-          "width": 0,
-          "x": 3136,
-          "y": 3584,
-          "zOrder": 95,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "e86990c7-1b52-4146-9603-c4b6c1180abf",
-          "width": 0,
-          "x": 3136,
-          "y": 3456,
-          "zOrder": 96,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Slime",
-          "persistentUuid": "5dae8a57-d445-45af-8e78-4f52980afe3c",
-          "width": 0,
-          "x": 3136,
-          "y": 3328,
-          "zOrder": 97,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "SlimeVeloz",
           "persistentUuid": "781221b4-741d-4aae-9d32-a9fa09659b13",
           "width": 0,
-          "x": 3136,
-          "y": 3200,
+          "x": 3104,
+          "y": 2462,
           "zOrder": 98,
           "numberProperties": [],
           "stringProperties": [],
@@ -49297,8 +49185,8 @@
           "name": "Slime",
           "persistentUuid": "d5d4858c-efd9-46f6-b02b-35af3fb6d4bd",
           "width": 0,
-          "x": 320,
-          "y": 1920,
+          "x": 864,
+          "y": 1982,
           "zOrder": 102,
           "numberProperties": [],
           "stringProperties": [],
@@ -49313,8 +49201,8 @@
           "name": "SlimeVeloz",
           "persistentUuid": "3ffdbe9b-9b42-47d3-bf2d-ea0865770886",
           "width": 0,
-          "x": 512,
-          "y": 2048,
+          "x": 1440,
+          "y": 1950,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -49374,44 +49262,12 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Slime",
-          "persistentUuid": "a2d230a7-bc94-41ca-a63c-974656298cf6",
-          "width": 0,
-          "x": 2624,
-          "y": 1792,
-          "zOrder": 107,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "SlimeResistente",
           "persistentUuid": "6616723e-2e92-4598-b2f5-c8b8732910c5",
           "width": 0,
-          "x": 2048,
-          "y": 2240,
+          "x": 2592,
+          "y": 2046,
           "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "SlimeResistente",
-          "persistentUuid": "3ad55d66-7c38-4a63-a212-3e4211c5c87c",
-          "width": 0,
-          "x": 2048,
-          "y": 2176,
-          "zOrder": 109,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49505,8 +49361,8 @@
           "name": "SlimeVeloz",
           "persistentUuid": "f87ca0e6-a7b6-454d-995c-20e1c1c44479",
           "width": 0,
-          "x": 2336,
-          "y": 2206,
+          "x": 2912,
+          "y": 1822,
           "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
@@ -49519,11 +49375,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "SlimeVeloz",
-          "persistentUuid": "70b016d4-7310-4453-b664-8435bb0d9d3b",
+          "persistentUuid": "edf028c5-0383-4dcb-ac1d-4bd15b29b271",
           "width": 0,
-          "x": 3136,
-          "y": 3264,
-          "zOrder": 116,
+          "x": 544,
+          "y": 3134,
+          "zOrder": 93,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49535,11 +49391,11 @@
           "keepRatio": true,
           "layer": "",
           "name": "SlimeResistente",
-          "persistentUuid": "76b49706-aca0-4e33-a319-73198b7d2443",
+          "persistentUuid": "46ac83b0-4141-4092-85a2-78b124cbb2d5",
           "width": 0,
-          "x": 3136,
-          "y": 3392,
-          "zOrder": 117,
+          "x": 1824,
+          "y": 2878,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -49550,12 +49406,28 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Slime",
-          "persistentUuid": "11bbaafb-8d4a-4160-ba9a-40fb3600055c",
+          "name": "SlimeResistente",
+          "persistentUuid": "ed08c012-31f2-472b-9f40-121c23e393eb",
           "width": 0,
-          "x": 3136,
-          "y": 3520,
-          "zOrder": 118,
+          "x": 2976,
+          "y": 3198,
+          "zOrder": 82,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SlimeResistente",
+          "persistentUuid": "db598a37-58bb-472e-bf7f-1fc3093329b5",
+          "width": 0,
+          "x": 2912,
+          "y": 3614,
+          "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69866,7 +69738,7 @@
                             "=",
                             "SceneWindowWidth()-Missions.Width()-Margin",
                             "=",
-                            "Cronometro.Y()+Margin*2.5"
+                            "Cronometro.Y()+Margin*10"
                           ]
                         }
                       ]
@@ -69926,29 +69798,85 @@
                                 "Player",
                                 "TopDownMovement"
                               ]
-                            },
-                            {
-                              "type": {
-                                "value": "OpacityCapability::OpacityBehavior::Value"
-                              },
-                              "parameters": [
-                                "Missions",
-                                "Opacity",
-                                "<",
-                                "MaxOpacity"
-                              ]
                             }
                           ],
-                          "actions": [
+                          "actions": [],
+                          "events": [
                             {
-                              "type": {
-                                "value": "OpacityCapability::OpacityBehavior::SetValue"
-                              },
-                              "parameters": [
-                                "Missions",
-                                "Opacity",
-                                "+",
-                                "Coefficient / 4"
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::Value"
+                                  },
+                                  "parameters": [
+                                    "Missions",
+                                    "Opacity",
+                                    "<=",
+                                    "MinOpacity"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Wait"
+                                  },
+                                  "parameters": [
+                                    "4"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Missions",
+                                    "Opacity",
+                                    "+",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::Value"
+                                  },
+                                  "parameters": [
+                                    "Missions",
+                                    "Opacity",
+                                    "<",
+                                    "MaxOpacity"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::Value"
+                                  },
+                                  "parameters": [
+                                    "Missions",
+                                    "Opacity",
+                                    ">",
+                                    "MinOpacity"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "Missions",
+                                    "Opacity",
+                                    "+",
+                                    "Coefficient / 4"
+                                  ]
+                                }
                               ]
                             }
                           ]
